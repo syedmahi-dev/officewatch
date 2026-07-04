@@ -10,11 +10,7 @@ export function AlertsPanel({ alerts }) {
         <div>
           <p className="text-sm font-medium text-[var(--text-secondary)]">Alerts</p>
         </div>
-        <div className={`inline-flex items-center gap-2 rounded-full border px-3 py-1.5 text-sm font-medium ${
-          alertItems.length === 0
-            ? 'border-emerald-500/35 bg-emerald-500/15 text-emerald-300 shadow-[0_0_12px_rgba(16,185,129,0.15)]'
-            : 'border-rose-500/40 bg-rose-500/15 text-rose-300 shadow-[0_0_15px_rgba(244,63,94,0.25)]'
-        }`}>
+        <div className="inline-flex items-center gap-2 rounded-full border border-[var(--border-subtle)] bg-[var(--surface-soft)] px-3 py-1.5 text-sm font-medium text-[var(--text-secondary)]">
           <Bell className="h-4 w-4" />
           {alertItems.length === 0 ? 'All quiet' : `${alertItems.length} active`}
         </div>
@@ -30,7 +26,7 @@ export function AlertsPanel({ alerts }) {
                 exit={{ opacity: 0 }}
                 className="absolute inset-0 flex flex-col items-center justify-center rounded-[24px] border border-dashed border-[var(--border-subtle)] bg-[var(--surface-soft)] px-6 text-center"
               >
-                <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-2xl border border-emerald-500/35 bg-emerald-500/15 text-emerald-300 shadow-[0_0_20px_rgba(16,185,129,0.2)]">
+                <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-2xl border border-[var(--border-subtle)] bg-[var(--surface-muted)] text-[var(--text-secondary)]">
                   <Bell className="h-6 w-6" />
                 </div>
                 <p className="text-base font-medium text-[var(--text-primary)]">
@@ -47,11 +43,11 @@ export function AlertsPanel({ alerts }) {
                 animate={{ opacity: 1, y: 0, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.96, transition: { duration: 0.2 } }}
                 transition={{ type: 'spring', stiffness: 280, damping: 28 }}
-                className="rounded-[24px] border border-amber-500/40 bg-gradient-to-r from-amber-500/15 via-amber-500/5 to-transparent p-4 shadow-[0_8px_24px_rgba(245,158,11,0.15)]"
+                className="rounded-[24px] border border-amber-400/20 bg-amber-400/10 p-4"
               >
                 <div className="flex items-start justify-between gap-4">
                   <div className="flex items-start gap-3">
-                    <div className="mt-0.5 flex h-10 w-10 items-center justify-center rounded-2xl border border-amber-400/35 bg-amber-400/20 text-amber-300 shadow-[0_0_12px_rgba(251,191,36,0.2)]">
+                    <div className="mt-0.5 flex h-10 w-10 items-center justify-center rounded-2xl border border-amber-400/20 bg-amber-400/12 text-amber-200">
                       {alert.type === 'after-hours' ? (
                         <Clock className="h-4 w-4" />
                       ) : (
@@ -66,7 +62,7 @@ export function AlertsPanel({ alerts }) {
                     </div>
                   </div>
 
-                  <span className="shrink-0 rounded-full border border-amber-500/30 bg-amber-500/10 px-3 py-1.5 text-xs font-medium text-amber-200">
+                  <span className="shrink-0 rounded-full border border-amber-400/20 bg-black/10 px-3 py-1.5 text-xs font-medium text-amber-100">
                     {new Date(alert.triggeredAt).toLocaleTimeString([], {
                       hour: '2-digit',
                       minute: '2-digit',

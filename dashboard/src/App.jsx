@@ -27,25 +27,14 @@ export default function App() {
   });
 
   useEffect(() => {
-    const backendUrl = import.meta.env.VITE_BACKEND_URL;
-    if (backendUrl) {
-      const wsProtocol = backendUrl.startsWith('https') ? 'wss:' : 'ws:';
-      const host = backendUrl.replace(/^https?:\/\//, '');
-      setWsUrl(`${wsProtocol}//${host}/ws`);
-    } else {
-      const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
-      setWsUrl(`${protocol}//${window.location.host}/ws`);
-    }
+    const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+    setWsUrl(`${protocol}//${window.location.host}/ws`);
   }, []);
 
   useEffect(() => {
     document.documentElement.dataset.theme = theme;
     window.localStorage.setItem(THEME_STORAGE_KEY, theme);
   }, [theme]);
-
-  const defaultWsUrl = import.meta.env.VITE_BACKEND_URL
-    ? `${import.meta.env.VITE_BACKEND_URL.replace(/^http/, 'ws')}/ws`
-    : 'ws://localhost:3000/ws';
 
   const {
     devices,
@@ -54,7 +43,7 @@ export default function App() {
     isConnected,
     hasInitialData,
     backendHealthy,
-  } = useDataLayer(wsUrl || defaultWsUrl);
+  } = useDataLayer(wsUrl || 'ws://localhost:3000/ws');
 
   const isDark = theme === 'dark';
   const totalDevices = devices.length;
@@ -68,28 +57,16 @@ export default function App() {
       label: 'Devices on',
       value: totalDevices === 0 ? '0' : `${activeDevices}/${totalDevices}`,
       icon: Lightbulb,
-      color: 'text-amber-300',
-      bg: 'bg-amber-500/15',
-      border: 'border-amber-500/35',
-      glow: 'shadow-[0_0_20px_rgba(251,191,36,0.18)]',
     },
     {
       label: 'Rooms active',
       value: `${activeRooms}/${KNOWN_ROOM_COUNT}`,
       icon: Activity,
-      color: 'text-cyan-300',
-      bg: 'bg-cyan-500/15',
-      border: 'border-cyan-500/35',
-      glow: 'shadow-[0_0_20px_rgba(34,211,238,0.18)]',
     },
     {
       label: 'Open alerts',
       value: `${alerts.length}`,
       icon: Bell,
-      color: alerts.length > 0 ? 'text-rose-300' : 'text-emerald-300',
-      bg: alerts.length > 0 ? 'bg-rose-500/15' : 'bg-emerald-500/15',
-      border: alerts.length > 0 ? 'border-rose-500/35' : 'border-emerald-500/35',
-      glow: alerts.length > 0 ? 'shadow-[0_0_20px_rgba(244,63,94,0.18)]' : 'shadow-[0_0_20px_rgba(16,185,129,0.18)]',
     },
   ];
 
@@ -98,7 +75,7 @@ export default function App() {
       <div className="relative min-h-[100dvh] overflow-hidden bg-[var(--page-bg)] px-4 py-4 text-[var(--text-primary)] md:px-8 md:py-8">
         <div
           aria-hidden="true"
-          className="absolute inset-x-0 top-0 h-80 bg-[radial-gradient(circle_at_top_left,rgba(122,231,176,0.22),transparent_38%),radial-gradient(circle_at_top_right,rgba(79,123,106,0.22),transparent_30%)]"
+          className="absolute inset-x-0 top-0 h-80 bg-[radial-gradient(circle_at_top_left,var(--glow-primary),transparent_38%),radial-gradient(circle_at_top_right,var(--glow-secondary),transparent_30%)]"
         />
         <div className="relative mx-auto flex min-h-[calc(100dvh-2rem)] max-w-7xl flex-col justify-center gap-6">
           <div className="overflow-hidden rounded-[32px] border border-[var(--border-strong)] bg-[var(--surface-strong)] p-6 shadow-[var(--shadow-panel)] backdrop-blur-xl md:p-8">
@@ -176,7 +153,7 @@ export default function App() {
             <button
               type="button"
               onClick={() => window.location.reload()}
-              className="inline-flex items-center gap-2 rounded-full border border-[var(--border-subtle)] bg-[var(--surface-soft)] px-4 py-2 text-sm font-medium text-[var(--text-primary)] transition hover:border-[var(--border-strong)] hover:bg-[var(--surface-muted)]"
+              className="inline-flex items-center gap-2 rounded-full border border-[var(--border-subtle)] bg-[var(--surface-soft)] px-4 py-2 text-sm font-medium text-[var(--text-primary)] transition hover:border-[var(--border-strong)] hover:bg-[var(--surface-muted)] active:scale-[0.98]"
             >
               <RefreshCw className="h-4 w-4" />
               Retry
@@ -191,11 +168,11 @@ export default function App() {
     <div className="relative min-h-[100dvh] overflow-hidden bg-[var(--page-bg)] px-4 py-4 text-[var(--text-primary)] transition-colors md:px-8 md:py-8">
       <div
         aria-hidden="true"
-        className="absolute inset-x-0 top-0 h-96 bg-[radial-gradient(circle_at_top_left,rgba(122,231,176,0.2),transparent_34%),radial-gradient(circle_at_top_right,rgba(56,189,150,0.14),transparent_28%)]"
+        className="absolute inset-x-0 top-0 h-96 bg-[radial-gradient(circle_at_top_left,var(--glow-primary),transparent_34%),radial-gradient(circle_at_top_right,var(--glow-secondary),transparent_28%)]"
       />
       <div
         aria-hidden="true"
-        className="absolute right-[-12rem] top-32 h-80 w-80 rounded-full bg-[rgba(122,231,176,0.1)] blur-3xl"
+        className="absolute right-[-12rem] top-32 h-80 w-80 rounded-full bg-[var(--glow-primary)] blur-3xl"
       />
 
       <div className="relative mx-auto max-w-7xl space-y-6">
@@ -227,10 +204,10 @@ export default function App() {
                 <button
                   type="button"
                   onClick={() => setTheme((currentTheme) => (currentTheme === 'dark' ? 'light' : 'dark'))}
-                  className="inline-flex items-center gap-2 rounded-full border border-[var(--border-subtle)] bg-[var(--surface-soft)] px-3 py-2 text-sm font-medium text-[var(--text-primary)] transition hover:border-[var(--border-strong)] hover:bg-[var(--surface-muted)]"
+                  className="inline-flex items-center gap-2 rounded-full border border-[var(--border-subtle)] bg-[var(--surface-soft)] px-3 py-2 text-sm font-medium text-[var(--text-primary)] transition hover:border-[var(--border-strong)] hover:bg-[var(--surface-muted)] active:scale-[0.98]"
                   aria-label={`Switch to ${isDark ? 'light' : 'dark'} mode`}
                 >
-                  {isDark ? <Sun className="h-4 w-4 text-amber-300" /> : <Moon className="h-4 w-4 text-cyan-300" />}
+                  {isDark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
                   {isDark ? 'Light mode' : 'Dark mode'}
                 </button>
 
@@ -257,10 +234,10 @@ export default function App() {
           </div>
 
           <div className="mt-8 grid gap-3 md:grid-cols-3">
-            {summaryCards.map(({ label, value, icon: Icon, color, bg, border, glow }) => (
+            {summaryCards.map(({ label, value, icon: Icon }) => (
               <article
                 key={label}
-                className="group rounded-2xl border border-[var(--border-subtle)] bg-[var(--surface-soft)] p-5 transition-all duration-300 hover:border-[var(--border-strong)] hover:bg-[var(--surface-muted)]"
+                className="rounded-2xl border border-[var(--border-subtle)] bg-[var(--surface-soft)] p-4"
               >
                 <div className="flex items-start justify-between gap-4">
                   <div>
@@ -271,8 +248,8 @@ export default function App() {
                       {value}
                     </p>
                   </div>
-                  <div className={`flex h-12 w-12 items-center justify-center rounded-2xl border ${border} ${bg} ${color} ${glow} transition-transform duration-300 group-hover:scale-105`}>
-                    <Icon className="h-6 w-6" />
+                  <div className="flex h-11 w-11 items-center justify-center rounded-2xl border border-[var(--border-subtle)] bg-[var(--surface-muted)] text-[var(--text-secondary)]">
+                    <Icon className="h-5 w-5" />
                   </div>
                 </div>
               </article>

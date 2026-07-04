@@ -32,7 +32,7 @@ function FanIcon({ isOn, isConnected }) {
 
   return (
     <div ref={iconRef} className="flex h-5 w-5 items-center justify-center origin-center">
-      <Fan className={`h-full w-full transition-colors duration-300 ${isOn ? 'text-cyan-300 drop-shadow-[0_0_8px_rgba(34,211,238,0.8)]' : 'text-cyan-400/60'}`} />
+      <Fan className={`h-full w-full ${isOn ? 'text-[var(--accent-strong)]' : 'text-[var(--text-muted)]'}`} />
     </div>
   );
 }
@@ -55,9 +55,9 @@ function LightIcon({ isOn, isConnected }) {
     <div className="relative flex h-5 w-5 items-center justify-center">
       <div
         ref={glowRef}
-        className="absolute inset-0 rounded-full bg-[rgba(250,204,21,0.35)] blur-md"
+        className="absolute inset-0 rounded-full bg-[rgba(122,231,176,0.22)] blur-md"
       />
-      <Lightbulb className={`relative z-10 h-full w-full transition-colors duration-300 ${isOn ? 'text-amber-300 drop-shadow-[0_0_8px_rgba(251,191,36,0.8)]' : 'text-amber-400/60'}`} />
+      <Lightbulb className={`relative z-10 h-full w-full ${isOn ? 'text-[var(--accent-strong)]' : 'text-[var(--text-muted)]'}`} />
     </div>
   );
 }
@@ -65,34 +65,25 @@ function LightIcon({ isOn, isConnected }) {
 function DeviceCard({ device, isConnected }) {
   const isOn = device.status === 'on';
   const deviceLabel = device.id.split('-').slice(1).join(' ');
-  const isFan = device.type === 'fan';
 
   return (
     <article
-      className={`group rounded-2xl border p-4 transition-all duration-300 ${
+      className={`rounded-2xl border p-4 transition duration-300 ${
         isOn
-          ? isFan
-            ? 'border-cyan-500/45 bg-gradient-to-b from-cyan-500/15 to-cyan-500/5 shadow-[0_4px_20px_rgba(34,211,238,0.12)]'
-            : 'border-amber-500/45 bg-gradient-to-b from-amber-500/15 to-amber-500/5 shadow-[0_4px_20px_rgba(251,191,36,0.12)]'
-          : isFan
-            ? 'border-cyan-500/20 bg-cyan-500/5 hover:border-cyan-500/35 hover:bg-cyan-500/10'
-            : 'border-amber-500/20 bg-amber-500/5 hover:border-amber-500/35 hover:bg-amber-500/10'
+          ? 'border-[var(--border-strong)] bg-[var(--surface-muted)] shadow-[inset_0_1px_0_rgba(255,255,255,0.08)]'
+          : 'border-[var(--border-subtle)] bg-[var(--surface-soft)]'
       }`}
     >
       <div className="flex items-start justify-between gap-3">
         <div className="flex items-center gap-3">
           <div
-            className={`flex h-11 w-11 items-center justify-center rounded-2xl border transition-transform duration-300 group-hover:scale-105 ${
+            className={`flex h-11 w-11 items-center justify-center rounded-2xl border ${
               isOn
-                ? isFan
-                  ? 'border-cyan-400/40 bg-cyan-400/20 shadow-[0_0_15px_rgba(34,211,238,0.25)]'
-                  : 'border-amber-400/40 bg-amber-400/20 shadow-[0_0_15px_rgba(251,191,36,0.25)]'
-                : isFan
-                  ? 'border-cyan-500/25 bg-cyan-500/10'
-                  : 'border-amber-500/25 bg-amber-500/10'
+                ? 'border-[var(--border-strong)] bg-[var(--accent-soft)]'
+                : 'border-[var(--border-subtle)] bg-[var(--surface)]'
             }`}
           >
-            {isFan ? (
+            {device.type === 'fan' ? (
               <FanIcon isOn={isOn} isConnected={isConnected} />
             ) : (
               <LightIcon isOn={isOn} isConnected={isConnected} />
@@ -104,18 +95,16 @@ function DeviceCard({ device, isConnected }) {
               {deviceLabel}
             </p>
             <p className="mt-1 text-xs text-[var(--text-muted)]">
-              {isFan ? 'Ceiling fan' : 'Lighting circuit'}
+              {device.type === 'fan' ? 'Ceiling fan' : 'Lighting circuit'}
             </p>
           </div>
         </div>
 
         <span
-          className={`rounded-full px-2.5 py-1 text-xs font-medium transition-colors duration-300 ${
+          className={`rounded-full px-2.5 py-1 text-xs font-medium ${
             isOn
-              ? isFan
-                ? 'border border-cyan-400/40 bg-cyan-400/20 text-cyan-200 shadow-[0_0_10px_rgba(34,211,238,0.2)]'
-                : 'border border-amber-400/40 bg-amber-400/20 text-amber-200 shadow-[0_0_10px_rgba(251,191,36,0.2)]'
-              : 'border border-zinc-700/60 bg-zinc-900/80 text-zinc-400'
+              ? 'border border-[var(--border-strong)] bg-[var(--accent-soft)] text-[var(--text-primary)]'
+              : 'border border-[var(--border-subtle)] bg-[var(--surface)] text-[var(--text-secondary)]'
           }`}
         >
           {isOn ? 'On' : 'Off'}
@@ -182,7 +171,7 @@ export function DeviceStatusPanel({ devices, isConnected }) {
           <p className="text-sm font-medium text-[var(--text-secondary)]">Device map</p>
         </div>
 
-        <div className="inline-flex items-center gap-2 rounded-full border border-cyan-500/35 bg-cyan-500/15 px-3 py-1.5 text-sm font-medium text-cyan-300 shadow-[0_0_15px_rgba(34,211,238,0.15)]">
+        <div className="inline-flex items-center gap-2 rounded-full border border-[var(--border-subtle)] bg-[var(--surface-soft)] px-3 py-1.5 text-sm font-medium text-[var(--text-secondary)]">
           <Grid className="h-4 w-4" />
           {activeDeviceCount} live circuits
         </div>
@@ -205,7 +194,7 @@ export function DeviceStatusPanel({ devices, isConnected }) {
                 <span className="rounded-full border border-[var(--border-subtle)] bg-[var(--surface)] px-3 py-1.5 text-sm font-medium text-[var(--text-secondary)]">
                   {room.devices.length} total
                 </span>
-                <span className="rounded-full border border-[var(--border-strong)] bg-[var(--accent-soft)] px-3 py-1.5 text-sm font-medium text-[var(--accent-strong)] shadow-[0_0_12px_rgba(0,255,136,0.2)]">
+                <span className="rounded-full border border-[var(--border-strong)] bg-[var(--accent-soft)] px-3 py-1.5 text-sm font-medium text-[var(--text-primary)]">
                   {room.roomPower} W live
                 </span>
               </div>
