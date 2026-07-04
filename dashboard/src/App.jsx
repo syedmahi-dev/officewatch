@@ -27,8 +27,15 @@ export default function App() {
   });
 
   useEffect(() => {
-    const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
-    setWsUrl(`${protocol}//${window.location.host}/ws`);
+    const backendUrl = import.meta.env.VITE_BACKEND_URL;
+    if (backendUrl) {
+      const wsProtocol = backendUrl.startsWith('https') ? 'wss:' : 'ws:';
+      const host = backendUrl.replace(/^https?:\/\//, '');
+      setWsUrl(`${wsProtocol}//${host}/ws`);
+    } else {
+      const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+      setWsUrl(`${protocol}//${window.location.host}/ws`);
+    }
   }, []);
 
   useEffect(() => {
@@ -147,7 +154,7 @@ export default function App() {
                 Connecting to the OfficeWatch stream...
               </p>
               <p className="mt-1 text-sm text-[var(--text-muted)]">
-                We are waiting for the backend on port 3000 to deliver the first live snapshot.
+                We are waiting for the live backend server to deliver the first snapshot.
               </p>
             </div>
             <button
