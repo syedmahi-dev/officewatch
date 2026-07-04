@@ -1,0 +1,47 @@
+{
+  ".oxlintrc.json": {
+    "mtime": 1783146193.0073464,
+    "ast_hash": "5e6e3cea3e89137071c142dd7835b0ef",
+    "semantic_hash": "5e6e3cea3e89137071c142dd7835b0ef"
+  },
+  "package.json": {
+    "mtime": 1783146720.6923828,
+    "ast_hash": "9b8d4bd7248034e7c523c5d1b5e9d114",
+    "semantic_hash": "9b8d4bd7248034e7c523c5d1b5e9d114"
+  },
+  "src/App.jsx": {
+    "mtime": 1783149967.1699686,
+    "ast_hash": "ac623750354ed926729a091eb57eca7c",
+    "semantic_hash": "ac623750354ed926729a091eb57eca7c"
+  },
+  "src/components/AlertsPanel.jsx": {
+    "mtime": 1783149967.5457463,
+    "ast_hash": "47c4cff5bd77de1f78fc4a472fe68bb6",
+    "semantic_hash": "47c4cff5bd77de1f78fc4a472fe68bb6"
+  },
+  "src/components/DeviceStatusPanel.jsx": {
+    "mtime": 1783149967.6990423,
+    "ast_hash": "2d8504fd0a74701c04130259dc7271d2",
+    "semantic_hash": "2d8504fd0a74701c04130259dc7271d2"
+  },
+  "src/components/PowerMeter.jsx": {
+    "mtime": 1783149967.393551,
+    "ast_hash": "5de8754c3c7ac790a962652d467fa4ab",
+    "semantic_hash": "5de8754c3c7ac790a962652d467fa4ab"
+  },
+  "src/hooks/useDataLayer.js": {
+    "mtime": 1783148790.0336065,
+    "ast_hash": "8982074d4c47778753504e477279fa5b",
+    "semantic_hash": "8982074d4c47778753504e477279fa5b"
+  },
+  "src/main.jsx": {
+    "mtime": 1783146193.0136247,
+    "ast_hash": "e13723e2574429d9a6d849727e3ff695",
+    "semantic_hash": "e13723e2574429d9a6d849727e3ff695"
+  },
+  "vite.config.js": {
+    "mtime": 1783148790.4475677,
+    "ast_hash": "17faaadd70efe72a4e0ada10b89f7c1a",
+    "semantic_hash": "17faaadd70efe72a4e0ada10b89f7c1a"
+  }
+}

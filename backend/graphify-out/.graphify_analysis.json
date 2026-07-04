@@ -1,0 +1,288 @@
+{
+  "communities": {
+    "0": [
+      "config_officelayout_gettickintervalms",
+      "demo_democontroller_createdemocontroller",
+      "discord_bot_creatediscordbot",
+      "docs_openapi",
+      "docs_openapi_createopenapispec",
+      "routes_alerts",
+      "routes_alerts_registeralertsroute",
+      "routes_debug_registerdebugroute",
+      "routes_docs",
+      "routes_docs_registerdocsroutes",
+      "routes_health",
+      "routes_health_registerhealthroute",
+      "routes_room_registerroomroute",
+      "routes_simulation_registersimulationroute",
+      "routes_status",
+      "routes_status_registerstatusroute",
+      "routes_usage",
+      "routes_usage_registerusageroute",
+      "src_alertengine_createalertengine",
+      "src_app",
+      "src_app_createofficewatchbackend",
+      "src_server",
+      "src_server_runtime",
+      "src_server_shutdown",
+      "src_simulationclock",
+      "src_simulationclock_asdate",
+      "src_simulationclock_createsimulationclock",
+      "src_simulator",
+      "src_simulator_createsimulator",
+      "test_api_test",
+      "test_api_test_createrunningbackend",
+      "ws_hub",
+      "ws_hub_createwebsockethub",
+      "ws_hub_sendjson"
+    ],
+    "1": [
+      "package",
+      "package_author",
+      "package_dependencies",
+      "package_dependencies_cors",
+      "package_dependencies_discord_js",
+      "package_dependencies_dotenv",
+      "package_dependencies_express",
+      "package_dependencies_ws",
+      "package_description",
+      "package_keywords",
+      "package_license",
+      "package_main",
+      "package_name",
+      "package_scripts",
+      "package_scripts_dev",
+      "package_scripts_start",
+      "package_scripts_test",
+      "package_type",
+      "package_version"
+    ],
+    "2": [
+      "config_officelayout",
+      "config_officelayout_alert_types",
+      "config_officelayout_devices_per_room",
+      "config_officelayout_isdebugroutesenabled",
+      "config_officelayout_normalizeroomid",
+      "config_officelayout_room_aliases",
+      "config_officelayout_room_display_names",
+      "config_officelayout_roomaliasentries",
+      "config_officelayout_rooms",
+      "routes_debug",
+      "routes_helpers",
+      "routes_helpers_requireknownalerttype",
+      "routes_helpers_requireknownroom",
+      "routes_helpers_senderror",
+      "routes_room",
+      "routes_simulation"
+    ],
+    "3": [
+      "config_officelayout_builddeviceid",
+      "config_officelayout_device_statuses",
+      "config_officelayout_device_type_counts",
+      "config_officelayout_device_types",
+      "src_devicestore",
+      "src_devicestore_asdate",
+      "src_devicestore_clonedevice",
+      "src_devicestore_createcanonicaldevices",
+      "src_devicestore_createdevicestore",
+      "src_devicestore_daykey",
+      "src_devicestore_devicesortkey",
+      "src_devicestore_seeddevices",
+      "src_devicestore_shuffle",
+      "src_devicestore_validatedeviceshape",
+      "test_devicestore_test"
+    ],
+    "4": [
+      "commands_room",
+      "commands_room_handleroomcommand",
+      "commands_status",
+      "commands_status_handlestatuscommand",
+      "commands_usage",
+      "commands_usage_handleusagecommand",
+      "discord_bot",
+      "discord_responseformatter",
+      "discord_responseformatter_describeroom",
+      "discord_responseformatter_formatalertnotification",
+      "discord_responseformatter_formatroomresponse",
+      "discord_responseformatter_formatstatusresponse",
+      "discord_responseformatter_formatusageresponse"
+    ],
+    "5": [
+      "config_officelayout_getroomlabel",
+      "config_officelayout_office_hours",
+      "config_officelayout_power_draw_watts",
+      "src_alertengine",
+      "src_alertengine_asdate",
+      "src_alertengine_buildalertmessage",
+      "src_alertengine_createalert",
+      "src_alertengine_isofficehours",
+      "src_alertengine_sortalerts",
+      "src_alertengine_summarizedevices",
+      "src_devicestore_buildroomsummary",
+      "test_alertengine_test",
+      "test_alertengine_test_roomdevices"
+    ],
+    "6": [
+      "index",
+      "index_alerts",
+      "index_app",
+      "index_cors",
+      "index_devices",
+      "index_express",
+      "index_http",
+      "index_rooms",
+      "index_server",
+      "index_updateusage",
+      "index_usage",
+      "index_websocketserver",
+      "index_wss"
+    ],
+    "7": [
+      "demo_democontroller",
+      "demo_democontroller_asdate",
+      "demo_democontroller_atlocalhour",
+      "demo_democontroller_buildpresetstate",
+      "demo_democontroller_clonedevices",
+      "demo_democontroller_demo_presets",
+      "demo_democontroller_markroomdeviceson",
+      "demo_democontroller_setalldevicesoff"
+    ],
+    "8": [
+      "api_documentation_debug_simulation_api",
+      "api_documentation_discord_bot",
+      "api_documentation_in_memory_store",
+      "api_documentation_rest_api",
+      "api_documentation_simulator",
+      "api_documentation_websocket_api"
+    ],
+    "9": [
+      "api_documentation_officewatch_backend_api",
+      "api_documentation_openapi_contract"
+    ]
+  },
+  "cohesion": {
+    "0": 0.11051693404634581,
+    "1": 0.10526315789473684,
+    "2": 0.25833333333333336,
+    "3": 0.20952380952380953,
+    "4": 0.3333333333333333,
+    "5": 0.20512820512820512,
+    "6": 0.15384615384615385,
+    "7": 0.39285714285714285,
+    "8": 0.3333333333333333,
+    "9": 1.0
+  },
+  "gods": [
+    {
+      "id": "src_app_createofficewatchbackend",
+      "label": "createOfficeWatchBackend()",
+      "degree": 21
+    },
+    {
+      "id": "config_officelayout_rooms",
+      "label": "ROOMS",
+      "degree": 8
+    },
+    {
+      "id": "config_officelayout_getroomlabel",
+      "label": "getRoomLabel()",
+      "degree": 7
+    },
+    {
+      "id": "src_devicestore_createdevicestore",
+      "label": "createDeviceStore()",
+      "degree": 7
+    },
+    {
+      "id": "config_officelayout_normalizeroomid",
+      "label": "normalizeRoomId()",
+      "degree": 6
+    },
+    {
+      "id": "demo_democontroller_buildpresetstate",
+      "label": "buildPresetState()",
+      "degree": 5
+    },
+    {
+      "id": "package_scripts",
+      "label": "scripts",
+      "degree": 4
+    },
+    {
+      "id": "src_alertengine_buildalertmessage",
+      "label": "buildAlertMessage()",
+      "degree": 4
+    },
+    {
+      "id": "src_alertengine_createalertengine",
+      "label": "createAlertEngine()",
+      "degree": 4
+    },
+    {
+      "id": "src_devicestore_seeddevices",
+      "label": "seedDevices()",
+      "degree": 4
+    }
+  ],
+  "surprises": [
+    {
+      "source": "createRunningBackend()",
+      "target": "createOfficeWatchBackend()",
+      "source_files": [
+        "test/api.test.js",
+        "src/app.js"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories; peripheral node `createRunningBackend()` unexpectedly reaches hub `createOfficeWatchBackend()`"
+    },
+    {
+      "source": "createOfficeWatchBackend()",
+      "target": "createDeviceStore()",
+      "source_files": [
+        "src/app.js",
+        "src/deviceStore.js"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "handleRoomCommand()",
+      "target": "normalizeRoomId()",
+      "source_files": [
+        "src/discord/commands/room.js",
+        "src/config/officeLayout.js"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "buildRoomSummary()",
+      "target": "getRoomLabel()",
+      "source_files": [
+        "src/deviceStore.js",
+        "src/config/officeLayout.js"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "peripheral node `buildRoomSummary()` unexpectedly reaches hub `getRoomLabel()`"
+    },
+    {
+      "source": "buildAlertMessage()",
+      "target": "getRoomLabel()",
+      "source_files": [
+        "src/alertEngine.js",
+        "src/config/officeLayout.js"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "cross-file semantic connection"
+    }
+  ],
+  "tokens": {
+    "input": 1531,
+    "output": 1670
+  }
+}

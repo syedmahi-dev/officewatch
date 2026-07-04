@@ -1,0 +1,1173 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "project_assets",
+        "label": "Project Visual Assets",
+        "nodes": [
+          "public_favicon_svg",
+          "public_icons_svg",
+          "src_assets_react_svg",
+          "src_assets_vite_svg",
+          "src_assets_hero_png"
+        ],
+        "relation": "participate_in",
+        "confidence": "INFERRED",
+        "confidence_score": 0.9,
+        "source_file": "README.md"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "label": ".oxlintrc.json",
+      "file_type": "code",
+      "source_file": ".oxlintrc.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "oxlintrc",
+      "community": 4,
+      "norm_label": ".oxlintrc.json"
+    },
+    {
+      "label": "$schema",
+      "file_type": "code",
+      "source_file": ".oxlintrc.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "oxlintrc_schema",
+      "community": 4,
+      "norm_label": "$schema"
+    },
+    {
+      "label": "plugins",
+      "file_type": "code",
+      "source_file": ".oxlintrc.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "oxlintrc_plugins",
+      "community": 4,
+      "norm_label": "plugins"
+    },
+    {
+      "label": "rules",
+      "file_type": "code",
+      "source_file": ".oxlintrc.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "oxlintrc_rules",
+      "community": 4,
+      "norm_label": "rules"
+    },
+    {
+      "label": "react/rules-of-hooks",
+      "file_type": "code",
+      "source_file": ".oxlintrc.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "oxlintrc_rules_react_rules_of_hooks",
+      "community": 4,
+      "norm_label": "react/rules-of-hooks"
+    },
+    {
+      "label": "react/only-export-components",
+      "file_type": "code",
+      "source_file": ".oxlintrc.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "oxlintrc_rules_react_only_export_components",
+      "community": 4,
+      "norm_label": "react/only-export-components"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "package",
+      "community": 1,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "package_name",
+      "community": 1,
+      "norm_label": "name"
+    },
+    {
+      "label": "private",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "package_private",
+      "community": 1,
+      "norm_label": "private"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "package_version",
+      "community": 1,
+      "norm_label": "version"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "package_type",
+      "community": 1,
+      "norm_label": "type"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "package_scripts",
+      "community": 1,
+      "norm_label": "scripts"
+    },
+    {
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "package_scripts_dev",
+      "community": 1,
+      "norm_label": "dev"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "package_scripts_build",
+      "community": 1,
+      "norm_label": "build"
+    },
+    {
+      "label": "lint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "package_scripts_lint",
+      "community": 1,
+      "norm_label": "lint"
+    },
+    {
+      "label": "preview",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "package_scripts_preview",
+      "community": 1,
+      "norm_label": "preview"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "package_dependencies",
+      "community": 3,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "@tailwindcss/vite",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "package_dependencies_tailwindcss_vite",
+      "community": 3,
+      "norm_label": "@tailwindcss/vite"
+    },
+    {
+      "label": "gsap",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "package_dependencies_gsap",
+      "community": 3,
+      "norm_label": "gsap"
+    },
+    {
+      "label": "lucide-react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "package_dependencies_lucide_react",
+      "community": 3,
+      "norm_label": "lucide-react"
+    },
+    {
+      "label": "motion",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "package_dependencies_motion",
+      "community": 3,
+      "norm_label": "motion"
+    },
+    {
+      "label": "react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "package_dependencies_react",
+      "community": 3,
+      "norm_label": "react"
+    },
+    {
+      "label": "react-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "package_dependencies_react_dom",
+      "community": 3,
+      "norm_label": "react-dom"
+    },
+    {
+      "label": "tailwindcss",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "package_dependencies_tailwindcss",
+      "community": 3,
+      "norm_label": "tailwindcss"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "package_devdependencies",
+      "community": 5,
+      "norm_label": "devdependencies"
+    },
+    {
+      "label": "@types/react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "package_devdependencies_types_react",
+      "community": 5,
+      "norm_label": "@types/react"
+    },
+    {
+      "label": "@types/react-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "package_devdependencies_types_react_dom",
+      "community": 5,
+      "norm_label": "@types/react-dom"
+    },
+    {
+      "label": "@vitejs/plugin-react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "package_devdependencies_vitejs_plugin_react",
+      "community": 5,
+      "norm_label": "@vitejs/plugin-react"
+    },
+    {
+      "label": "oxlint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "package_devdependencies_oxlint",
+      "community": 5,
+      "norm_label": "oxlint"
+    },
+    {
+      "label": "vite",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "package_devdependencies_vite",
+      "community": 5,
+      "norm_label": "vite"
+    },
+    {
+      "label": "App.jsx",
+      "file_type": "code",
+      "source_file": "src/App.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_app",
+      "community": 0,
+      "norm_label": "app.jsx"
+    },
+    {
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "src/App.jsx",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "src_app_app",
+      "community": 2,
+      "norm_label": "app()"
+    },
+    {
+      "label": "AlertsPanel.jsx",
+      "file_type": "code",
+      "source_file": "src/components/AlertsPanel.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "components_alertspanel",
+      "community": 0,
+      "norm_label": "alertspanel.jsx"
+    },
+    {
+      "label": "AlertsPanel()",
+      "file_type": "code",
+      "source_file": "src/components/AlertsPanel.jsx",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "components_alertspanel_alertspanel",
+      "community": 0,
+      "norm_label": "alertspanel()"
+    },
+    {
+      "label": "DeviceStatusPanel.jsx",
+      "file_type": "code",
+      "source_file": "src/components/DeviceStatusPanel.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "components_devicestatuspanel",
+      "community": 0,
+      "norm_label": "devicestatuspanel.jsx"
+    },
+    {
+      "label": "ROOM_NAMES",
+      "file_type": "code",
+      "source_file": "src/components/DeviceStatusPanel.jsx",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "components_devicestatuspanel_room_names",
+      "community": 0,
+      "norm_label": "room_names"
+    },
+    {
+      "label": "FanIcon()",
+      "file_type": "code",
+      "source_file": "src/components/DeviceStatusPanel.jsx",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "components_devicestatuspanel_fanicon",
+      "community": 0,
+      "norm_label": "fanicon()"
+    },
+    {
+      "label": "LightIcon()",
+      "file_type": "code",
+      "source_file": "src/components/DeviceStatusPanel.jsx",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "components_devicestatuspanel_lighticon",
+      "community": 0,
+      "norm_label": "lighticon()"
+    },
+    {
+      "label": "DeviceCard()",
+      "file_type": "code",
+      "source_file": "src/components/DeviceStatusPanel.jsx",
+      "source_location": "L65",
+      "_origin": "ast",
+      "id": "components_devicestatuspanel_devicecard",
+      "community": 0,
+      "norm_label": "devicecard()"
+    },
+    {
+      "label": "DeviceStatusPanel()",
+      "file_type": "code",
+      "source_file": "src/components/DeviceStatusPanel.jsx",
+      "source_location": "L105",
+      "_origin": "ast",
+      "id": "components_devicestatuspanel_devicestatuspanel",
+      "community": 0,
+      "norm_label": "devicestatuspanel()"
+    },
+    {
+      "label": "PowerMeter.jsx",
+      "file_type": "code",
+      "source_file": "src/components/PowerMeter.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "components_powermeter",
+      "community": 0,
+      "norm_label": "powermeter.jsx"
+    },
+    {
+      "label": "PowerMeter()",
+      "file_type": "code",
+      "source_file": "src/components/PowerMeter.jsx",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "components_powermeter_powermeter",
+      "community": 0,
+      "norm_label": "powermeter()"
+    },
+    {
+      "label": "useDataLayer.js",
+      "file_type": "code",
+      "source_file": "src/hooks/useDataLayer.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "hooks_usedatalayer",
+      "community": 2,
+      "norm_label": "usedatalayer.js"
+    },
+    {
+      "label": "normalizeAlerts()",
+      "file_type": "code",
+      "source_file": "src/hooks/useDataLayer.js",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "hooks_usedatalayer_normalizealerts",
+      "community": 2,
+      "norm_label": "normalizealerts()"
+    },
+    {
+      "label": "normalizeUsage()",
+      "file_type": "code",
+      "source_file": "src/hooks/useDataLayer.js",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "hooks_usedatalayer_normalizeusage",
+      "community": 2,
+      "norm_label": "normalizeusage()"
+    },
+    {
+      "label": "useDataLayer()",
+      "file_type": "code",
+      "source_file": "src/hooks/useDataLayer.js",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "hooks_usedatalayer_usedatalayer",
+      "community": 2,
+      "norm_label": "usedatalayer()"
+    },
+    {
+      "label": "main.jsx",
+      "file_type": "code",
+      "source_file": "src/main.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main",
+      "community": 2,
+      "norm_label": "main.jsx"
+    },
+    {
+      "label": "vite.config.js",
+      "file_type": "code",
+      "source_file": "vite.config.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "vite_config",
+      "community": 10,
+      "norm_label": "vite.config.js"
+    },
+    {
+      "label": "React + Vite Template",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "id": "readme_react_vite",
+      "community": 6,
+      "norm_label": "react + vite template"
+    },
+    {
+      "label": "index.html",
+      "file_type": "code",
+      "source_file": "index.html",
+      "source_location": null,
+      "id": "index_html",
+      "community": 2,
+      "norm_label": "index.html"
+    },
+    {
+      "label": "Favicon",
+      "file_type": "image",
+      "source_file": "public/favicon.svg",
+      "source_location": null,
+      "id": "public_favicon_svg",
+      "community": 2,
+      "norm_label": "favicon"
+    },
+    {
+      "label": "Icon Sprite Sheet",
+      "file_type": "image",
+      "source_file": "public/icons.svg",
+      "source_location": null,
+      "id": "public_icons_svg",
+      "community": 7,
+      "norm_label": "icon sprite sheet"
+    },
+    {
+      "label": "React Logo",
+      "file_type": "image",
+      "source_file": "src/assets/react.svg",
+      "source_location": null,
+      "id": "src_assets_react_svg",
+      "community": 8,
+      "norm_label": "react logo"
+    },
+    {
+      "label": "Vite Logo",
+      "file_type": "image",
+      "source_file": "src/assets/vite.svg",
+      "source_location": null,
+      "id": "src_assets_vite_svg",
+      "community": 9,
+      "norm_label": "vite logo"
+    },
+    {
+      "label": "Hero Illustration",
+      "file_type": "image",
+      "source_file": "src/assets/hero.png",
+      "source_location": null,
+      "id": "src_assets_hero_png",
+      "community": 6,
+      "norm_label": "hero illustration"
+    },
+    {
+      "label": "@vitejs/plugin-react",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": null,
+      "id": "readme_vite_plugin_react",
+      "community": 6,
+      "norm_label": "@vitejs/plugin-react"
+    },
+    {
+      "label": "@vitejs/plugin-react-swc",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": null,
+      "id": "readme_vite_plugin_react_swc",
+      "community": 6,
+      "norm_label": "@vitejs/plugin-react-swc"
+    },
+    {
+      "label": "React Compiler",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": null,
+      "id": "readme_react_compiler",
+      "community": 6,
+      "norm_label": "react compiler"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".oxlintrc.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "oxlintrc",
+      "target": "oxlintrc_plugins",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".oxlintrc.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "oxlintrc",
+      "target": "oxlintrc_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".oxlintrc.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "oxlintrc",
+      "target": "oxlintrc_schema",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".oxlintrc.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "oxlintrc_rules",
+      "target": "oxlintrc_rules_react_only_export_components",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".oxlintrc.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "oxlintrc_rules",
+      "target": "oxlintrc_rules_react_rules_of_hooks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_devdependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_private",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_scripts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_build",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_dev",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_lint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_preview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_gsap",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_lucide_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_motion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_react_dom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_tailwindcss",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_tailwindcss_vite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_oxlint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_types_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_types_react_dom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_vite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_vitejs_plugin_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "components_alertspanel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "components_alertspanel_alertspanel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "components_devicestatuspanel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "components_devicestatuspanel_devicestatuspanel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "components_powermeter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "components_powermeter_powermeter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "hooks_usedatalayer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "hooks_usedatalayer_usedatalayer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "src_app_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main",
+      "target": "src_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/App.jsx",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "src_app_app",
+      "target": "hooks_usedatalayer_usedatalayer"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main",
+      "target": "src_app_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/AlertsPanel.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "components_alertspanel",
+      "target": "components_alertspanel_alertspanel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/DeviceStatusPanel.jsx",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "components_devicestatuspanel",
+      "target": "components_devicestatuspanel_devicecard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/DeviceStatusPanel.jsx",
+      "source_location": "L105",
+      "weight": 1.0,
+      "source": "components_devicestatuspanel",
+      "target": "components_devicestatuspanel_devicestatuspanel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/DeviceStatusPanel.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "components_devicestatuspanel",
+      "target": "components_devicestatuspanel_fanicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/DeviceStatusPanel.jsx",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "components_devicestatuspanel",
+      "target": "components_devicestatuspanel_lighticon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/DeviceStatusPanel.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "components_devicestatuspanel",
+      "target": "components_devicestatuspanel_room_names",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/PowerMeter.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "components_powermeter",
+      "target": "components_powermeter_powermeter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/hooks/useDataLayer.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "hooks_usedatalayer",
+      "target": "hooks_usedatalayer_normalizealerts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/hooks/useDataLayer.js",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "hooks_usedatalayer",
+      "target": "hooks_usedatalayer_normalizeusage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/hooks/useDataLayer.js",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "hooks_usedatalayer",
+      "target": "hooks_usedatalayer_usedatalayer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source": "index_html",
+      "target": "src_main"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source": "readme_react_vite",
+      "target": "readme_react_compiler"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source": "readme_react_vite",
+      "target": "readme_vite_plugin_react"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source": "readme_react_vite",
+      "target": "readme_vite_plugin_react_swc"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/assets/hero.png",
+      "source": "src_assets_hero_png",
+      "target": "readme_react_vite"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.html",
+      "source": "index_html",
+      "target": "public_favicon_svg"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "project_assets",
+      "label": "Project Visual Assets",
+      "nodes": [
+        "public_favicon_svg",
+        "public_icons_svg",
+        "src_assets_react_svg",
+        "src_assets_vite_svg",
+        "src_assets_hero_png"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "README.md"
+    }
+  ]
+}

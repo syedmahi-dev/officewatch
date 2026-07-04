@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+:root {
+  --page-bg: #000000;
+  --page-bg-secondary: #040605;
+  --surface: rgba(10, 14, 12, 0.88);
+  --surface-strong: rgba(13, 18, 15, 0.96);
+  --surface-soft: rgba(20, 28, 24, 0.65);
+  --surface-muted: rgba(15, 22, 18, 0.92);
+  --border-subtle: rgba(255, 255, 255, 0.15);
+  --border-strong: rgba(0, 255, 136, 0.45);
+  --text-primary: #ffffff;
+  --text-secondary: #b8c8c0;
+  --text-muted: #788a82;
+  --accent-soft: rgba(0, 255, 136, 0.18);
+  --accent-strong: #00ff88;
+  --shadow-panel: 0 24px 80px rgba(0, 0, 0, 0.92), 0 0 45px rgba(0, 255, 136, 0.08);
+  color-scheme: dark;
+}
+
+:root[data-theme='light'] {
+  --page-bg: #ecf2ee;
+  --page-bg-secondary: #f8fbf8;
+  --surface: rgba(255, 255, 255, 0.72);
+  --surface-strong: rgba(255, 255, 255, 0.9);
+  --surface-soft: rgba(255, 255, 255, 0.68);
+  --surface-muted: rgba(244, 249, 245, 0.94);
+  --border-subtle: rgba(74, 91, 82, 0.14);
+  --border-strong: rgba(31, 155, 99, 0.16);
+  --text-primary: #16231c;
+  --text-secondary: #4b5d53;
+  --text-muted: #6f8177;
+  --accent-soft: rgba(31, 155, 99, 0.1);
+  --accent-strong: #1f9b63;
+  --shadow-panel: 0 24px 72px rgba(29, 46, 37, 0.12);
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100dvh;
+  margin: 0;
+  background:
+    radial-gradient(circle at top left, rgba(0, 255, 136, 0.12), transparent 36%),
+    radial-gradient(circle at top right, rgba(0, 204, 255, 0.08), transparent 32%),
+    linear-gradient(180deg, var(--page-bg-secondary), var(--page-bg));
+  color: var(--text-primary);
+  font-family: "Aptos", "Inter Variable", "Segoe UI Variable Display", "SF Pro Display", "Helvetica Neue", system-ui, sans-serif;
+  letter-spacing: -0.01em;
+  transition: background-color 200ms ease, color 200ms ease;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.055) 0.75px, transparent 0.75px);
+  background-size: 22px 22px;
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.42), transparent 78%);
+  opacity: 0.35;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.04), transparent 20%);
+  opacity: 0.55;
+}
+
+#root {
+  min-height: 100dvh;
+  isolation: isolate;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(0, 255, 136, 0.3);
+  color: var(--text-primary);
+}
+
+.font-numeric {
+  font-variant-numeric: tabular-nums;
+}

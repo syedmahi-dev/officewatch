@@ -1,0 +1,6147 @@
+{
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "nodes": [
+    {
+      "id": "backend_index",
+      "label": "index.js",
+      "file_type": "code",
+      "source_file": "backend/index.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_index_express",
+      "label": "express",
+      "file_type": "code",
+      "source_file": "backend/index.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_index_cors",
+      "label": "cors",
+      "file_type": "code",
+      "source_file": "backend/index.js",
+      "source_location": "L2",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_index_websocketserver",
+      "label": "{ WebSocketServer }",
+      "file_type": "code",
+      "source_file": "backend/index.js",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_index_http",
+      "label": "http",
+      "file_type": "code",
+      "source_file": "backend/index.js",
+      "source_location": "L4",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_index_app",
+      "label": "app",
+      "file_type": "code",
+      "source_file": "backend/index.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_index_server",
+      "label": "server",
+      "file_type": "code",
+      "source_file": "backend/index.js",
+      "source_location": "L8",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_index_wss",
+      "label": "wss",
+      "file_type": "code",
+      "source_file": "backend/index.js",
+      "source_location": "L9",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_index_devices",
+      "label": "devices",
+      "file_type": "code",
+      "source_file": "backend/index.js",
+      "source_location": "L11",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_index_rooms",
+      "label": "rooms",
+      "file_type": "code",
+      "source_file": "backend/index.js",
+      "source_location": "L12",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_index_usage",
+      "label": "usage",
+      "file_type": "code",
+      "source_file": "backend/index.js",
+      "source_location": "L22",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_index_alerts",
+      "label": "alerts",
+      "file_type": "code",
+      "source_file": "backend/index.js",
+      "source_location": "L23",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_index_updateusage",
+      "label": "updateUsage()",
+      "file_type": "code",
+      "source_file": "backend/index.js",
+      "source_location": "L27",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_package",
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "backend/package.json",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_package_name",
+      "label": "name",
+      "file_type": "code",
+      "source_file": "backend/package.json",
+      "source_location": "L2",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_package_version",
+      "label": "version",
+      "file_type": "code",
+      "source_file": "backend/package.json",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_package_description",
+      "label": "description",
+      "file_type": "code",
+      "source_file": "backend/package.json",
+      "source_location": "L4",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_package_type",
+      "label": "type",
+      "file_type": "code",
+      "source_file": "backend/package.json",
+      "source_location": "L5",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_package_main",
+      "label": "main",
+      "file_type": "code",
+      "source_file": "backend/package.json",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_package_scripts",
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "backend/package.json",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_package_scripts_start",
+      "label": "start",
+      "file_type": "code",
+      "source_file": "backend/package.json",
+      "source_location": "L8",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_package_scripts_dev",
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "backend/package.json",
+      "source_location": "L9",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_package_scripts_test",
+      "label": "test",
+      "file_type": "code",
+      "source_file": "backend/package.json",
+      "source_location": "L10",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_package_keywords",
+      "label": "keywords",
+      "file_type": "code",
+      "source_file": "backend/package.json",
+      "source_location": "L12",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_package_author",
+      "label": "author",
+      "file_type": "code",
+      "source_file": "backend/package.json",
+      "source_location": "L18",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_package_license",
+      "label": "license",
+      "file_type": "code",
+      "source_file": "backend/package.json",
+      "source_location": "L19",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_package_dependencies",
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "backend/package.json",
+      "source_location": "L20",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_package_dependencies_cors",
+      "label": "cors",
+      "file_type": "code",
+      "source_file": "backend/package.json",
+      "source_location": "L21",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_package_dependencies_discord_js",
+      "label": "discord.js",
+      "file_type": "code",
+      "source_file": "backend/package.json",
+      "source_location": "L22",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_package_dependencies_dotenv",
+      "label": "dotenv",
+      "file_type": "code",
+      "source_file": "backend/package.json",
+      "source_location": "L23",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_package_dependencies_express",
+      "label": "express",
+      "file_type": "code",
+      "source_file": "backend/package.json",
+      "source_location": "L24",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_package_dependencies_ws",
+      "label": "ws",
+      "file_type": "code",
+      "source_file": "backend/package.json",
+      "source_location": "L25",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_alertengine",
+      "label": "alertEngine.js",
+      "file_type": "code",
+      "source_file": "backend/src/alertEngine.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_alertengine_asdate",
+      "label": "asDate()",
+      "file_type": "code",
+      "source_file": "backend/src/alertEngine.js",
+      "source_location": "L12",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_alertengine_isofficehours",
+      "label": "isOfficeHours()",
+      "file_type": "code",
+      "source_file": "backend/src/alertEngine.js",
+      "source_location": "L25",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_alertengine_summarizedevices",
+      "label": "summarizeDevices()",
+      "file_type": "code",
+      "source_file": "backend/src/alertEngine.js",
+      "source_location": "L30",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_alertengine_buildalertmessage",
+      "label": "buildAlertMessage()",
+      "file_type": "code",
+      "source_file": "backend/src/alertEngine.js",
+      "source_location": "L36",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_alertengine_createalert",
+      "label": "createAlert()",
+      "file_type": "code",
+      "source_file": "backend/src/alertEngine.js",
+      "source_location": "L49",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_alertengine_sortalerts",
+      "label": "sortAlerts()",
+      "file_type": "code",
+      "source_file": "backend/src/alertEngine.js",
+      "source_location": "L62",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_alertengine_createalertengine",
+      "label": "createAlertEngine()",
+      "file_type": "code",
+      "source_file": "backend/src/alertEngine.js",
+      "source_location": "L68",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_app_js_src_app",
+      "label": "app.js",
+      "file_type": "code",
+      "source_file": "backend/src/app.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_createofficewatchbackend",
+      "label": "createOfficeWatchBackend()",
+      "file_type": "code",
+      "source_file": "backend/src/app.js",
+      "source_location": "L22",
+      "_origin": "ast"
+    },
+    {
+      "id": "config_officelayout",
+      "label": "officeLayout.js",
+      "file_type": "code",
+      "source_file": "backend/src/config/officeLayout.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "config_officelayout_roomaliasentries",
+      "label": "roomAliasEntries",
+      "file_type": "code",
+      "source_file": "backend/src/config/officeLayout.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "config_officelayout_rooms",
+      "label": "ROOMS",
+      "file_type": "code",
+      "source_file": "backend/src/config/officeLayout.js",
+      "source_location": "L15",
+      "_origin": "ast"
+    },
+    {
+      "id": "config_officelayout_room_display_names",
+      "label": "ROOM_DISPLAY_NAMES",
+      "file_type": "code",
+      "source_file": "backend/src/config/officeLayout.js",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
+      "id": "config_officelayout_room_aliases",
+      "label": "ROOM_ALIASES",
+      "file_type": "code",
+      "source_file": "backend/src/config/officeLayout.js",
+      "source_location": "L21",
+      "_origin": "ast"
+    },
+    {
+      "id": "config_officelayout_devices_per_room",
+      "label": "DEVICES_PER_ROOM",
+      "file_type": "code",
+      "source_file": "backend/src/config/officeLayout.js",
+      "source_location": "L22",
+      "_origin": "ast"
+    },
+    {
+      "id": "config_officelayout_power_draw_watts",
+      "label": "POWER_DRAW_WATTS",
+      "file_type": "code",
+      "source_file": "backend/src/config/officeLayout.js",
+      "source_location": "L27",
+      "_origin": "ast"
+    },
+    {
+      "id": "config_officelayout_device_types",
+      "label": "DEVICE_TYPES",
+      "file_type": "code",
+      "source_file": "backend/src/config/officeLayout.js",
+      "source_location": "L31",
+      "_origin": "ast"
+    },
+    {
+      "id": "config_officelayout_device_type_counts",
+      "label": "DEVICE_TYPE_COUNTS",
+      "file_type": "code",
+      "source_file": "backend/src/config/officeLayout.js",
+      "source_location": "L32",
+      "_origin": "ast"
+    },
+    {
+      "id": "config_officelayout_device_statuses",
+      "label": "DEVICE_STATUSES",
+      "file_type": "code",
+      "source_file": "backend/src/config/officeLayout.js",
+      "source_location": "L36",
+      "_origin": "ast"
+    },
+    {
+      "id": "config_officelayout_alert_types",
+      "label": "ALERT_TYPES",
+      "file_type": "code",
+      "source_file": "backend/src/config/officeLayout.js",
+      "source_location": "L37",
+      "_origin": "ast"
+    },
+    {
+      "id": "config_officelayout_office_hours",
+      "label": "OFFICE_HOURS",
+      "file_type": "code",
+      "source_file": "backend/src/config/officeLayout.js",
+      "source_location": "L38",
+      "_origin": "ast"
+    },
+    {
+      "id": "config_officelayout_gettickintervalms",
+      "label": "getTickIntervalMs()",
+      "file_type": "code",
+      "source_file": "backend/src/config/officeLayout.js",
+      "source_location": "L47",
+      "_origin": "ast"
+    },
+    {
+      "id": "config_officelayout_isdebugroutesenabled",
+      "label": "isDebugRoutesEnabled()",
+      "file_type": "code",
+      "source_file": "backend/src/config/officeLayout.js",
+      "source_location": "L52",
+      "_origin": "ast"
+    },
+    {
+      "id": "config_officelayout_normalizeroomid",
+      "label": "normalizeRoomId()",
+      "file_type": "code",
+      "source_file": "backend/src/config/officeLayout.js",
+      "source_location": "L56",
+      "_origin": "ast"
+    },
+    {
+      "id": "config_officelayout_getroomlabel",
+      "label": "getRoomLabel()",
+      "file_type": "code",
+      "source_file": "backend/src/config/officeLayout.js",
+      "source_location": "L61",
+      "_origin": "ast"
+    },
+    {
+      "id": "config_officelayout_builddeviceid",
+      "label": "buildDeviceId()",
+      "file_type": "code",
+      "source_file": "backend/src/config/officeLayout.js",
+      "source_location": "L65",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_devicestore",
+      "label": "deviceStore.js",
+      "file_type": "code",
+      "source_file": "backend/src/deviceStore.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_devicestore_clonedevice",
+      "label": "cloneDevice()",
+      "file_type": "code",
+      "source_file": "backend/src/deviceStore.js",
+      "source_location": "L11",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_devicestore_asdate",
+      "label": "asDate()",
+      "file_type": "code",
+      "source_file": "backend/src/deviceStore.js",
+      "source_location": "L17",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_devicestore_daykey",
+      "label": "dayKey()",
+      "file_type": "code",
+      "source_file": "backend/src/deviceStore.js",
+      "source_location": "L30",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_devicestore_shuffle",
+      "label": "shuffle()",
+      "file_type": "code",
+      "source_file": "backend/src/deviceStore.js",
+      "source_location": "L37",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_devicestore_devicesortkey",
+      "label": "deviceSortKey()",
+      "file_type": "code",
+      "source_file": "backend/src/deviceStore.js",
+      "source_location": "L46",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_devicestore_validatedeviceshape",
+      "label": "validateDeviceShape()",
+      "file_type": "code",
+      "source_file": "backend/src/deviceStore.js",
+      "source_location": "L53",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_devicestore_createcanonicaldevices",
+      "label": "createCanonicalDevices()",
+      "file_type": "code",
+      "source_file": "backend/src/deviceStore.js",
+      "source_location": "L81",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_devicestore_seeddevices",
+      "label": "seedDevices()",
+      "file_type": "code",
+      "source_file": "backend/src/deviceStore.js",
+      "source_location": "L103",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_devicestore_buildroomsummary",
+      "label": "buildRoomSummary()",
+      "file_type": "code",
+      "source_file": "backend/src/deviceStore.js",
+      "source_location": "L127",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_devicestore_createdevicestore",
+      "label": "createDeviceStore()",
+      "file_type": "code",
+      "source_file": "backend/src/deviceStore.js",
+      "source_location": "L141",
+      "_origin": "ast"
+    },
+    {
+      "id": "discord_bot",
+      "label": "bot.js",
+      "file_type": "code",
+      "source_file": "backend/src/discord/bot.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "discord_bot_creatediscordbot",
+      "label": "createDiscordBot()",
+      "file_type": "code",
+      "source_file": "backend/src/discord/bot.js",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "commands_room",
+      "label": "room.js",
+      "file_type": "code",
+      "source_file": "backend/src/discord/commands/room.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "commands_room_handleroomcommand",
+      "label": "handleRoomCommand()",
+      "file_type": "code",
+      "source_file": "backend/src/discord/commands/room.js",
+      "source_location": "L4",
+      "_origin": "ast"
+    },
+    {
+      "id": "commands_status",
+      "label": "status.js",
+      "file_type": "code",
+      "source_file": "backend/src/discord/commands/status.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "commands_status_handlestatuscommand",
+      "label": "handleStatusCommand()",
+      "file_type": "code",
+      "source_file": "backend/src/discord/commands/status.js",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "commands_usage",
+      "label": "usage.js",
+      "file_type": "code",
+      "source_file": "backend/src/discord/commands/usage.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "commands_usage_handleusagecommand",
+      "label": "handleUsageCommand()",
+      "file_type": "code",
+      "source_file": "backend/src/discord/commands/usage.js",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "discord_responseformatter",
+      "label": "responseFormatter.js",
+      "file_type": "code",
+      "source_file": "backend/src/discord/responseFormatter.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "discord_responseformatter_describeroom",
+      "label": "describeRoom()",
+      "file_type": "code",
+      "source_file": "backend/src/discord/responseFormatter.js",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "discord_responseformatter_formatstatusresponse",
+      "label": "formatStatusResponse()",
+      "file_type": "code",
+      "source_file": "backend/src/discord/responseFormatter.js",
+      "source_location": "L15",
+      "_origin": "ast"
+    },
+    {
+      "id": "discord_responseformatter_formatroomresponse",
+      "label": "formatRoomResponse()",
+      "file_type": "code",
+      "source_file": "backend/src/discord/responseFormatter.js",
+      "source_location": "L28",
+      "_origin": "ast"
+    },
+    {
+      "id": "discord_responseformatter_formatusageresponse",
+      "label": "formatUsageResponse()",
+      "file_type": "code",
+      "source_file": "backend/src/discord/responseFormatter.js",
+      "source_location": "L32",
+      "_origin": "ast"
+    },
+    {
+      "id": "discord_responseformatter_formatalertnotification",
+      "label": "formatAlertNotification()",
+      "file_type": "code",
+      "source_file": "backend/src/discord/responseFormatter.js",
+      "source_location": "L42",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_openapi",
+      "label": "openapi.js",
+      "file_type": "code",
+      "source_file": "backend/src/docs/openapi.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_openapi_createopenapispec",
+      "label": "createOpenApiSpec()",
+      "file_type": "code",
+      "source_file": "backend/src/docs/openapi.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "routes_alerts",
+      "label": "alerts.js",
+      "file_type": "code",
+      "source_file": "backend/src/routes/alerts.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "routes_alerts_registeralertsroute",
+      "label": "registerAlertsRoute()",
+      "file_type": "code",
+      "source_file": "backend/src/routes/alerts.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "routes_debug",
+      "label": "debug.js",
+      "file_type": "code",
+      "source_file": "backend/src/routes/debug.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "routes_debug_registerdebugroute",
+      "label": "registerDebugRoute()",
+      "file_type": "code",
+      "source_file": "backend/src/routes/debug.js",
+      "source_location": "L4",
+      "_origin": "ast"
+    },
+    {
+      "id": "routes_docs",
+      "label": "docs.js",
+      "file_type": "code",
+      "source_file": "backend/src/routes/docs.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "routes_docs_registerdocsroutes",
+      "label": "registerDocsRoutes()",
+      "file_type": "code",
+      "source_file": "backend/src/routes/docs.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "routes_health",
+      "label": "health.js",
+      "file_type": "code",
+      "source_file": "backend/src/routes/health.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "routes_health_registerhealthroute",
+      "label": "registerHealthRoute()",
+      "file_type": "code",
+      "source_file": "backend/src/routes/health.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "routes_helpers",
+      "label": "helpers.js",
+      "file_type": "code",
+      "source_file": "backend/src/routes/helpers.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "routes_helpers_senderror",
+      "label": "sendError()",
+      "file_type": "code",
+      "source_file": "backend/src/routes/helpers.js",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "routes_helpers_requireknownroom",
+      "label": "requireKnownRoom()",
+      "file_type": "code",
+      "source_file": "backend/src/routes/helpers.js",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "routes_helpers_requireknownalerttype",
+      "label": "requireKnownAlertType()",
+      "file_type": "code",
+      "source_file": "backend/src/routes/helpers.js",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
+      "id": "routes_room",
+      "label": "room.js",
+      "file_type": "code",
+      "source_file": "backend/src/routes/room.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "routes_room_registerroomroute",
+      "label": "registerRoomRoute()",
+      "file_type": "code",
+      "source_file": "backend/src/routes/room.js",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "routes_status",
+      "label": "status.js",
+      "file_type": "code",
+      "source_file": "backend/src/routes/status.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "routes_status_registerstatusroute",
+      "label": "registerStatusRoute()",
+      "file_type": "code",
+      "source_file": "backend/src/routes/status.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "routes_usage",
+      "label": "usage.js",
+      "file_type": "code",
+      "source_file": "backend/src/routes/usage.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "routes_usage_registerusageroute",
+      "label": "registerUsageRoute()",
+      "file_type": "code",
+      "source_file": "backend/src/routes/usage.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_server",
+      "label": "server.js",
+      "file_type": "code",
+      "source_file": "backend/src/server.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_server_runtime",
+      "label": "runtime",
+      "file_type": "code",
+      "source_file": "backend/src/server.js",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_server_shutdown",
+      "label": "shutdown()",
+      "file_type": "code",
+      "source_file": "backend/src/server.js",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_simulator",
+      "label": "simulator.js",
+      "file_type": "code",
+      "source_file": "backend/src/simulator.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_simulator_createsimulator",
+      "label": "createSimulator()",
+      "file_type": "code",
+      "source_file": "backend/src/simulator.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "ws_hub",
+      "label": "hub.js",
+      "file_type": "code",
+      "source_file": "backend/src/ws/hub.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "ws_hub_sendjson",
+      "label": "sendJson()",
+      "file_type": "code",
+      "source_file": "backend/src/ws/hub.js",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "ws_hub_createwebsockethub",
+      "label": "createWebSocketHub()",
+      "file_type": "code",
+      "source_file": "backend/src/ws/hub.js",
+      "source_location": "L11",
+      "_origin": "ast"
+    },
+    {
+      "id": "test_alertengine_test",
+      "label": "alertEngine.test.js",
+      "file_type": "code",
+      "source_file": "backend/test/alertEngine.test.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "test_alertengine_test_roomdevices",
+      "label": "roomDevices",
+      "file_type": "code",
+      "source_file": "backend/test/alertEngine.test.js",
+      "source_location": "L5",
+      "_origin": "ast"
+    },
+    {
+      "id": "test_api_test",
+      "label": "api.test.js",
+      "file_type": "code",
+      "source_file": "backend/test/api.test.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "test_api_test_createrunningbackend",
+      "label": "createRunningBackend()",
+      "file_type": "code",
+      "source_file": "backend/test/api.test.js",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "test_devicestore_test",
+      "label": "deviceStore.test.js",
+      "file_type": "code",
+      "source_file": "backend/test/deviceStore.test.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_oxlintrc",
+      "label": ".oxlintrc.json",
+      "file_type": "code",
+      "source_file": "dashboard/.oxlintrc.json",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_oxlintrc_schema",
+      "label": "$schema",
+      "file_type": "code",
+      "source_file": "dashboard/.oxlintrc.json",
+      "source_location": "L2",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_oxlintrc_plugins",
+      "label": "plugins",
+      "file_type": "code",
+      "source_file": "dashboard/.oxlintrc.json",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_oxlintrc_rules",
+      "label": "rules",
+      "file_type": "code",
+      "source_file": "dashboard/.oxlintrc.json",
+      "source_location": "L4",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_oxlintrc_rules_react_rules_of_hooks",
+      "label": "react/rules-of-hooks",
+      "file_type": "code",
+      "source_file": "dashboard/.oxlintrc.json",
+      "source_location": "L5",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_oxlintrc_rules_react_only_export_components",
+      "label": "react/only-export-components",
+      "file_type": "code",
+      "source_file": "dashboard/.oxlintrc.json",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_package",
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "dashboard/package.json",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_package_name",
+      "label": "name",
+      "file_type": "code",
+      "source_file": "dashboard/package.json",
+      "source_location": "L2",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_package_private",
+      "label": "private",
+      "file_type": "code",
+      "source_file": "dashboard/package.json",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_package_version",
+      "label": "version",
+      "file_type": "code",
+      "source_file": "dashboard/package.json",
+      "source_location": "L4",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_package_type",
+      "label": "type",
+      "file_type": "code",
+      "source_file": "dashboard/package.json",
+      "source_location": "L5",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_package_scripts",
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "dashboard/package.json",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_package_scripts_dev",
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "dashboard/package.json",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_package_scripts_build",
+      "label": "build",
+      "file_type": "code",
+      "source_file": "dashboard/package.json",
+      "source_location": "L8",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_package_scripts_lint",
+      "label": "lint",
+      "file_type": "code",
+      "source_file": "dashboard/package.json",
+      "source_location": "L9",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_package_scripts_preview",
+      "label": "preview",
+      "file_type": "code",
+      "source_file": "dashboard/package.json",
+      "source_location": "L10",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_package_dependencies",
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "dashboard/package.json",
+      "source_location": "L12",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_package_dependencies_tailwindcss_vite",
+      "label": "@tailwindcss/vite",
+      "file_type": "code",
+      "source_file": "dashboard/package.json",
+      "source_location": "L13",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_package_dependencies_gsap",
+      "label": "gsap",
+      "file_type": "code",
+      "source_file": "dashboard/package.json",
+      "source_location": "L14",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_package_dependencies_lucide_react",
+      "label": "lucide-react",
+      "file_type": "code",
+      "source_file": "dashboard/package.json",
+      "source_location": "L15",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_package_dependencies_motion",
+      "label": "motion",
+      "file_type": "code",
+      "source_file": "dashboard/package.json",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_package_dependencies_react",
+      "label": "react",
+      "file_type": "code",
+      "source_file": "dashboard/package.json",
+      "source_location": "L17",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_package_dependencies_react_dom",
+      "label": "react-dom",
+      "file_type": "code",
+      "source_file": "dashboard/package.json",
+      "source_location": "L18",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_package_dependencies_tailwindcss",
+      "label": "tailwindcss",
+      "file_type": "code",
+      "source_file": "dashboard/package.json",
+      "source_location": "L19",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_package_devdependencies",
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "dashboard/package.json",
+      "source_location": "L21",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_package_devdependencies_types_react",
+      "label": "@types/react",
+      "file_type": "code",
+      "source_file": "dashboard/package.json",
+      "source_location": "L22",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_package_devdependencies_types_react_dom",
+      "label": "@types/react-dom",
+      "file_type": "code",
+      "source_file": "dashboard/package.json",
+      "source_location": "L23",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_package_devdependencies_vitejs_plugin_react",
+      "label": "@vitejs/plugin-react",
+      "file_type": "code",
+      "source_file": "dashboard/package.json",
+      "source_location": "L24",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_package_devdependencies_oxlint",
+      "label": "oxlint",
+      "file_type": "code",
+      "source_file": "dashboard/package.json",
+      "source_location": "L25",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_package_devdependencies_vite",
+      "label": "vite",
+      "file_type": "code",
+      "source_file": "dashboard/package.json",
+      "source_location": "L26",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_src_app_jsx_src_app",
+      "label": "App.jsx",
+      "file_type": "code",
+      "source_file": "dashboard/src/App.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_app",
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "dashboard/src/App.jsx",
+      "source_location": "L8",
+      "_origin": "ast"
+    },
+    {
+      "id": "components_alertspanel",
+      "label": "AlertsPanel.jsx",
+      "file_type": "code",
+      "source_file": "dashboard/src/components/AlertsPanel.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "components_alertspanel_alertspanel",
+      "label": "AlertsPanel()",
+      "file_type": "code",
+      "source_file": "dashboard/src/components/AlertsPanel.jsx",
+      "source_location": "L4",
+      "_origin": "ast"
+    },
+    {
+      "id": "components_devicestatuspanel",
+      "label": "DeviceStatusPanel.jsx",
+      "file_type": "code",
+      "source_file": "dashboard/src/components/DeviceStatusPanel.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "components_devicestatuspanel_room_names",
+      "label": "ROOM_NAMES",
+      "file_type": "code",
+      "source_file": "dashboard/src/components/DeviceStatusPanel.jsx",
+      "source_location": "L5",
+      "_origin": "ast"
+    },
+    {
+      "id": "components_devicestatuspanel_fanicon",
+      "label": "FanIcon()",
+      "file_type": "code",
+      "source_file": "dashboard/src/components/DeviceStatusPanel.jsx",
+      "source_location": "L11",
+      "_origin": "ast"
+    },
+    {
+      "id": "components_devicestatuspanel_lighticon",
+      "label": "LightIcon()",
+      "file_type": "code",
+      "source_file": "dashboard/src/components/DeviceStatusPanel.jsx",
+      "source_location": "L40",
+      "_origin": "ast"
+    },
+    {
+      "id": "components_devicestatuspanel_devicecard",
+      "label": "DeviceCard()",
+      "file_type": "code",
+      "source_file": "dashboard/src/components/DeviceStatusPanel.jsx",
+      "source_location": "L65",
+      "_origin": "ast"
+    },
+    {
+      "id": "components_devicestatuspanel_devicestatuspanel",
+      "label": "DeviceStatusPanel()",
+      "file_type": "code",
+      "source_file": "dashboard/src/components/DeviceStatusPanel.jsx",
+      "source_location": "L95",
+      "_origin": "ast"
+    },
+    {
+      "id": "components_powermeter",
+      "label": "PowerMeter.jsx",
+      "file_type": "code",
+      "source_file": "dashboard/src/components/PowerMeter.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "components_powermeter_powermeter",
+      "label": "PowerMeter()",
+      "file_type": "code",
+      "source_file": "dashboard/src/components/PowerMeter.jsx",
+      "source_location": "L5",
+      "_origin": "ast"
+    },
+    {
+      "id": "hooks_usedatalayer",
+      "label": "useDataLayer.js",
+      "file_type": "code",
+      "source_file": "dashboard/src/hooks/useDataLayer.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "hooks_usedatalayer_usedatalayer",
+      "label": "useDataLayer()",
+      "file_type": "code",
+      "source_file": "dashboard/src/hooks/useDataLayer.js",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_main",
+      "label": "main.jsx",
+      "file_type": "code",
+      "source_file": "dashboard/src/main.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_vite_config",
+      "label": "vite.config.js",
+      "file_type": "code",
+      "source_file": "dashboard/vite.config.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "agents",
+      "label": "AGENTS.md",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "agents_agents_md_operating_rules_for_coding_agents",
+      "label": "AGENTS.md — Operating Rules for Coding Agents",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "agents_1_source_of_truth_hierarchy",
+      "label": "1. Source of truth hierarchy",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "agents_2_known_open_issue_resolved_do_not_reopen",
+      "label": "2. Known open issue — resolved, do not reopen",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L19",
+      "_origin": "ast"
+    },
+    {
+      "id": "agents_3_no_invented_data",
+      "label": "3. No invented data",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L27",
+      "_origin": "ast"
+    },
+    {
+      "id": "agents_4_no_silent_scope_expansion",
+      "label": "4. No silent scope expansion",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L42",
+      "_origin": "ast"
+    },
+    {
+      "id": "agents_5_hardware_schematic_boundaries",
+      "label": "5. Hardware / schematic boundaries",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L50",
+      "_origin": "ast"
+    },
+    {
+      "id": "agents_6_when_requirements_are_ambiguous",
+      "label": "6. When requirements are ambiguous",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L57",
+      "_origin": "ast"
+    },
+    {
+      "id": "agents_7_error_handling_is_not_optional",
+      "label": "7. Error handling is not optional",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L69",
+      "_origin": "ast"
+    },
+    {
+      "id": "agents_8_commit_hygiene",
+      "label": "8. Commit hygiene",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L80",
+      "_origin": "ast"
+    },
+    {
+      "id": "agents_9_self_check_before_declaring_a_task_done",
+      "label": "9. Self-check before declaring a task done",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L89",
+      "_origin": "ast"
+    },
+    {
+      "id": "agents_10_agent_generated_artifacts_do_not_belong_in_version_control",
+      "label": "10. Agent-generated artifacts do not belong in version control",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L102",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_manifest",
+      "label": "PACKAGE_MANIFEST.md",
+      "file_type": "document",
+      "source_file": "PACKAGE_MANIFEST.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_manifest_documentation_package_officewatch",
+      "label": "Documentation Package — OfficeWatch",
+      "file_type": "document",
+      "source_file": "PACKAGE_MANIFEST.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_manifest_contents",
+      "label": "Contents",
+      "file_type": "document",
+      "source_file": "PACKAGE_MANIFEST.md",
+      "source_location": "L5",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_manifest_suggested_use",
+      "label": "Suggested use",
+      "file_type": "document",
+      "source_file": "PACKAGE_MANIFEST.md",
+      "source_location": "L26",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_manifest_status",
+      "label": "Status",
+      "file_type": "document",
+      "source_file": "PACKAGE_MANIFEST.md",
+      "source_location": "L33",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme",
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_officewatch",
+      "label": "💡 OfficeWatch",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_table_of_contents",
+      "label": "📋 Table of Contents",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L9",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_overview",
+      "label": "Overview",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L28",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_features",
+      "label": "Features",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L39",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_architecture",
+      "label": "Architecture",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L49",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_tech_stack",
+      "label": "Tech Stack",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L59",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_getting_started",
+      "label": "Getting Started",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L70",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_prerequisites",
+      "label": "Prerequisites",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L72",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_installation",
+      "label": "Installation",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L77",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_configuration",
+      "label": "Configuration",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L92",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_running_the_system",
+      "label": "Running the system",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L103",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_running_the_dashboard",
+      "label": "Running the dashboard",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L113",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_environment_variables",
+      "label": "Environment Variables",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L122",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_api_reference",
+      "label": "API Reference",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L138",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_discord_commands",
+      "label": "Discord Commands",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L155",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_hardware_circuit_concept",
+      "label": "Hardware / Circuit Concept",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L165",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_project_structure",
+      "label": "Project Structure",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L175",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_known_limitations",
+      "label": "Known Limitations",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L199",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_testing",
+      "label": "Testing",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L210",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_demo",
+      "label": "Demo",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L219",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_license",
+      "label": "License",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L223",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_api_documentation",
+      "label": "API_DOCUMENTATION.md",
+      "file_type": "document",
+      "source_file": "backend/API_DOCUMENTATION.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_api_documentation_officewatch_backend_api_documentation",
+      "label": "OfficeWatch Backend API Documentation",
+      "file_type": "document",
+      "source_file": "backend/API_DOCUMENTATION.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_api_documentation_rest_summary",
+      "label": "REST Summary",
+      "file_type": "document",
+      "source_file": "backend/API_DOCUMENTATION.md",
+      "source_location": "L8",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_api_documentation_websocket_summary",
+      "label": "WebSocket Summary",
+      "file_type": "document",
+      "source_file": "backend/API_DOCUMENTATION.md",
+      "source_location": "L19",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_api_documentation_notes",
+      "label": "Notes",
+      "file_type": "document",
+      "source_file": "backend/API_DOCUMENTATION.md",
+      "source_location": "L39",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_readme",
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "dashboard/README.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_readme_react_vite",
+      "label": "React + Vite",
+      "file_type": "document",
+      "source_file": "dashboard/README.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_readme_react_compiler",
+      "label": "React Compiler",
+      "file_type": "document",
+      "source_file": "dashboard/README.md",
+      "source_location": "L10",
+      "_origin": "ast"
+    },
+    {
+      "id": "dashboard_readme_expanding_the_oxlint_configuration",
+      "label": "Expanding the Oxlint configuration",
+      "file_type": "document",
+      "source_file": "dashboard/README.md",
+      "source_location": "L14",
+      "_origin": "ast"
+    },
+    {
+      "id": "diagrams_circuit_wiring_diagram",
+      "label": "Circuit_Wiring_Diagram.md",
+      "file_type": "document",
+      "source_file": "diagrams/Circuit_Wiring_Diagram.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "diagrams_circuit_wiring_diagram_circuit_wiring_diagram_work_room_1_reference_for_wokwi_tinkercad",
+      "label": "Circuit Wiring Diagram — Work Room 1 (Reference for Wokwi/Tinkercad)",
+      "file_type": "document",
+      "source_file": "diagrams/Circuit_Wiring_Diagram.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "diagrams_circuit_wiring_diagram_color_legend",
+      "label": "Color Legend",
+      "file_type": "document",
+      "source_file": "diagrams/Circuit_Wiring_Diagram.md",
+      "source_location": "L5",
+      "_origin": "ast"
+    },
+    {
+      "id": "diagrams_circuit_wiring_diagram_wiring_diagram",
+      "label": "Wiring Diagram",
+      "file_type": "document",
+      "source_file": "diagrams/Circuit_Wiring_Diagram.md",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
+      "id": "diagrams_circuit_wiring_diagram_pin_mapping_table",
+      "label": "Pin Mapping Table",
+      "file_type": "document",
+      "source_file": "diagrams/Circuit_Wiring_Diagram.md",
+      "source_location": "L68",
+      "_origin": "ast"
+    },
+    {
+      "id": "diagrams_circuit_wiring_diagram_electrical_reasoning_summary_full_detail_in_architecture_md_3_3",
+      "label": "Electrical Reasoning (summary — full detail in `ARCHITECTURE.md` §3.3)",
+      "file_type": "document",
+      "source_file": "diagrams/Circuit_Wiring_Diagram.md",
+      "source_location": "L89",
+      "_origin": "ast"
+    },
+    {
+      "id": "diagrams_component_list",
+      "label": "Component_List.md",
+      "file_type": "document",
+      "source_file": "diagrams/Component_List.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "diagrams_component_list_component_list_circuit_simulation_wokwi_tinkercad",
+      "label": "Component List — Circuit Simulation (Wokwi/Tinkercad)",
+      "file_type": "document",
+      "source_file": "diagrams/Component_List.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "diagrams_component_list_bill_of_materials",
+      "label": "Bill of Materials",
+      "file_type": "document",
+      "source_file": "diagrams/Component_List.md",
+      "source_location": "L5",
+      "_origin": "ast"
+    },
+    {
+      "id": "diagrams_component_list_quantity_summary",
+      "label": "Quantity summary",
+      "file_type": "document",
+      "source_file": "diagrams/Component_List.md",
+      "source_location": "L22",
+      "_origin": "ast"
+    },
+    {
+      "id": "diagrams_component_list_what_this_list_deliberately_excludes_and_why",
+      "label": "What this list deliberately excludes, and why",
+      "file_type": "document",
+      "source_file": "diagrams/Component_List.md",
+      "source_location": "L32",
+      "_origin": "ast"
+    },
+    {
+      "id": "diagrams_component_list_pin_usage_cross_reference",
+      "label": "Pin usage cross-reference",
+      "file_type": "document",
+      "source_file": "diagrams/Component_List.md",
+      "source_location": "L38",
+      "_origin": "ast"
+    },
+    {
+      "id": "diagrams_system_architecture_diagram",
+      "label": "System_Architecture_Diagram.md",
+      "file_type": "document",
+      "source_file": "diagrams/System_Architecture_Diagram.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "diagrams_system_architecture_diagram_system_architecture_diagram_officewatch",
+      "label": "System Architecture Diagram — OfficeWatch",
+      "file_type": "document",
+      "source_file": "diagrams/System_Architecture_Diagram.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "diagrams_system_architecture_diagram_color_legend",
+      "label": "Color Legend",
+      "file_type": "document",
+      "source_file": "diagrams/System_Architecture_Diagram.md",
+      "source_location": "L5",
+      "_origin": "ast"
+    },
+    {
+      "id": "diagrams_system_architecture_diagram_part_1_inside_the_backend_single_node_js_process",
+      "label": "Part 1 — Inside the Backend (single Node.js process)",
+      "file_type": "document",
+      "source_file": "diagrams/System_Architecture_Diagram.md",
+      "source_location": "L17",
+      "_origin": "ast"
+    },
+    {
+      "id": "diagrams_system_architecture_diagram_part_2_backend_to_interfaces_to_end_users",
+      "label": "Part 2 — Backend to Interfaces to End Users",
+      "file_type": "document",
+      "source_file": "diagrams/System_Architecture_Diagram.md",
+      "source_location": "L67",
+      "_origin": "ast"
+    },
+    {
+      "id": "diagrams_system_architecture_diagram_flow_narrative_for_the_video_demo_script",
+      "label": "Flow Narrative (for the video demo script)",
+      "file_type": "document",
+      "source_file": "diagrams/System_Architecture_Diagram.md",
+      "source_location": "L93",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture",
+      "label": "ARCHITECTURE.md",
+      "file_type": "document",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_officewatch_design_documentation_v1_3",
+      "label": "OfficeWatch — Design Documentation (v1.3)",
+      "file_type": "document",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_0_evaluation_criteria_coverage_matrix",
+      "label": "0. Evaluation Criteria Coverage Matrix",
+      "file_type": "document",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L12",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_2_high_level_system_diagram_description_for_manual_drawing",
+      "label": "2. High-Level System Diagram (description for manual drawing)",
+      "file_type": "document",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L39",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_3_hardware_electrical_schematic_for_wokwi_tinkercad_build_this_manually",
+      "label": "3. Hardware / Electrical Schematic (for Wokwi/Tinkercad — build this manually)",
+      "file_type": "document",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L78",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_3_1_component_list",
+      "label": "3.1 Component list",
+      "file_type": "document",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L82",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_3_2_pin_mapping_table_esp32_one_room_5_controllable_devices_2_fans_3_lights",
+      "label": "3.2 Pin mapping table (ESP32, one room = 5 controllable devices, 2 fans + 3 lights)",
+      "file_type": "document",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L94",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_3_3_electrical_reasoning",
+      "label": "3.3 Electrical reasoning",
+      "file_type": "document",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L114",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_3_4_what_the_firmware_conceptually_does_no_code_needed_for_the_schematic_just_the_logic",
+      "label": "3.4 What the firmware conceptually does (no code needed for the schematic, just the logic)",
+      "file_type": "document",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L120",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_4_data_model",
+      "label": "4. Data Model",
+      "file_type": "document",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L129",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_4_1_device_inventory_constants",
+      "label": "4.1 Device inventory (constants)",
+      "file_type": "document",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L131",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_4_2_device_object_single_source_of_truth_shape",
+      "label": "4.2 Device object (single source of truth shape)",
+      "file_type": "document",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L149",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_4_3_derived_computed_values_never_stored_always_calculated_on_read",
+      "label": "4.3 Derived / computed values (never stored, always calculated on read)",
+      "file_type": "document",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L167",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_4_4_alert_object",
+      "label": "4.4 Alert object",
+      "file_type": "document",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L174",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_5_api_specification",
+      "label": "5. API Specification",
+      "file_type": "document",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L196",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_5_1_rest_endpoints",
+      "label": "5.1 REST endpoints",
+      "file_type": "document",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L198",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_5_2_websocket_protocol",
+      "label": "5.2 WebSocket protocol",
+      "file_type": "document",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L218",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_6_alert_logic_exact_rules_no_ambiguity_for_implementation",
+      "label": "6. Alert Logic (exact rules — no ambiguity for implementation)",
+      "file_type": "document",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L237",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_7_discord_bot_specification",
+      "label": "7. Discord Bot Specification",
+      "file_type": "document",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L256",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_8_concurrency_failure_handling_why_this_holds_up_under_pressure",
+      "label": "8. Concurrency & Failure Handling (why this holds up under pressure)",
+      "file_type": "document",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L273",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_9_suggested_folder_structure",
+      "label": "9. Suggested Folder Structure",
+      "file_type": "document",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L286",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_10_validation_testing_plan",
+      "label": "10. Validation / Testing Plan",
+      "file_type": "document",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L337",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_11_open_assumptions_log_carry_into_readme_as_is",
+      "label": "11. Open Assumptions Log (carry into README as-is)",
+      "file_type": "document",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L350",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_12_edge_case_logical_consistency_audit_summary",
+      "label": "12. Edge Case & Logical Consistency Audit (summary)",
+      "file_type": "document",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L368",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_frontend_build_instructions",
+      "label": "FRONTEND_BUILD_INSTRUCTIONS.md",
+      "file_type": "document",
+      "source_file": "docs/FRONTEND_BUILD_INSTRUCTIONS.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_frontend_build_instructions_frontend_build_instructions_office_power_monitoring_dashboard",
+      "label": "Frontend Build Instructions — Office Power Monitoring Dashboard",
+      "file_type": "document",
+      "source_file": "docs/FRONTEND_BUILD_INSTRUCTIONS.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_frontend_build_instructions_1_what_this_app_talks_to",
+      "label": "1. What this app talks to",
+      "file_type": "document",
+      "source_file": "docs/FRONTEND_BUILD_INSTRUCTIONS.md",
+      "source_location": "L14",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_frontend_build_instructions_rest_endpoints_initial_load_fallback_poll_only",
+      "label": "REST endpoints (initial load / fallback poll only)",
+      "file_type": "document",
+      "source_file": "docs/FRONTEND_BUILD_INSTRUCTIONS.md",
+      "source_location": "L20",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_frontend_build_instructions_websocket_ws",
+      "label": "WebSocket — `/ws`",
+      "file_type": "document",
+      "source_file": "docs/FRONTEND_BUILD_INSTRUCTIONS.md",
+      "source_location": "L29",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_frontend_build_instructions_2_connection_lifecycle_non_negotiable_per_5_2",
+      "label": "2. Connection lifecycle (non-negotiable, per §5.2)",
+      "file_type": "document",
+      "source_file": "docs/FRONTEND_BUILD_INSTRUCTIONS.md",
+      "source_location": "L68",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_frontend_build_instructions_3_required_screens_panels_minimum_bar_from_the_spec",
+      "label": "3. Required screens / panels (minimum bar, from the spec)",
+      "file_type": "document",
+      "source_file": "docs/FRONTEND_BUILD_INSTRUCTIONS.md",
+      "source_location": "L90",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_frontend_build_instructions_4_states_the_ui_must_not_get_wrong",
+      "label": "4. States the UI must not get wrong",
+      "file_type": "document",
+      "source_file": "docs/FRONTEND_BUILD_INSTRUCTIONS.md",
+      "source_location": "L112",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_frontend_build_instructions_5_room_display_names",
+      "label": "5. Room display names",
+      "file_type": "document",
+      "source_file": "docs/FRONTEND_BUILD_INSTRUCTIONS.md",
+      "source_location": "L133",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_frontend_build_instructions_6_animation_use_gsap_keep_it_purposeful",
+      "label": "6. Animation — use GSAP, keep it purposeful",
+      "file_type": "document",
+      "source_file": "docs/FRONTEND_BUILD_INSTRUCTIONS.md",
+      "source_location": "L151",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_frontend_build_instructions_7_what_not_to_build_into_the_frontend",
+      "label": "7. What NOT to build into the frontend",
+      "file_type": "document",
+      "source_file": "docs/FRONTEND_BUILD_INSTRUCTIONS.md",
+      "source_location": "L180",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_frontend_build_instructions_8_handoff_checklist_before_calling_this_done",
+      "label": "8. Handoff checklist before calling this \"done\"",
+      "file_type": "document",
+      "source_file": "docs/FRONTEND_BUILD_INSTRUCTIONS.md",
+      "source_location": "L195",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_frontend_build_instructions_design_process_separate_step_not_covered_by_this_document",
+      "label": "Design process (separate step, not covered by this document)",
+      "file_type": "document",
+      "source_file": "docs/FRONTEND_BUILD_INSTRUCTIONS.md",
+      "source_location": "L212",
+      "_origin": "ast"
+    },
+    {
+      "id": "tasks_todo",
+      "label": "todo.md",
+      "file_type": "document",
+      "source_file": "tasks/todo.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "tasks_todo_officewatch_backend_todo",
+      "label": "OfficeWatch Backend Todo",
+      "file_type": "document",
+      "source_file": "tasks/todo.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "tasks_todo_plan",
+      "label": "Plan",
+      "file_type": "document",
+      "source_file": "tasks/todo.md",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "tasks_todo_progress",
+      "label": "Progress",
+      "file_type": "document",
+      "source_file": "tasks/todo.md",
+      "source_location": "L9",
+      "_origin": "ast"
+    },
+    {
+      "id": "tasks_todo_verification_notes",
+      "label": "Verification Notes",
+      "file_type": "document",
+      "source_file": "tasks/todo.md",
+      "source_location": "L15",
+      "_origin": "ast"
+    }
+  ],
+  "links": [
+    {
+      "source": "backend_index",
+      "target": "express",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/index.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_index",
+      "target": "backend_index_express",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/index.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_index",
+      "target": "cors",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/index.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_index",
+      "target": "backend_index_cors",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/index.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_index",
+      "target": "ws",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/index.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_index",
+      "target": "backend_index_websocketserver",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/index.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_index",
+      "target": "http",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/index.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_index",
+      "target": "backend_index_http",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/index.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_index",
+      "target": "backend_index_app",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/index.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_index",
+      "target": "backend_index_server",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/index.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_index",
+      "target": "backend_index_wss",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/index.js",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_index",
+      "target": "backend_index_devices",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/index.js",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_index",
+      "target": "backend_index_rooms",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/index.js",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_index",
+      "target": "backend_index_usage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/index.js",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_index",
+      "target": "backend_index_alerts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/index.js",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_index",
+      "target": "backend_index_updateusage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/index.js",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_package",
+      "target": "backend_package_name",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/package.json",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_package",
+      "target": "backend_package_version",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/package.json",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_package",
+      "target": "backend_package_description",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/package.json",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_package",
+      "target": "backend_package_type",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/package.json",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_package",
+      "target": "backend_package_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/package.json",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_package",
+      "target": "backend_package_scripts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/package.json",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_package_scripts",
+      "target": "backend_package_scripts_start",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/package.json",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_package_scripts",
+      "target": "backend_package_scripts_dev",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/package.json",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_package_scripts",
+      "target": "backend_package_scripts_test",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/package.json",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_package",
+      "target": "backend_package_keywords",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/package.json",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_package_keywords",
+      "target": "ref_officewatch",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "backend_package_keywords",
+      "target": "ref_express",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "backend_package_keywords",
+      "target": "ref_websocket",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "backend_package_keywords",
+      "target": "ref_discord_bot",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "backend_package",
+      "target": "backend_package_author",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/package.json",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_package",
+      "target": "backend_package_license",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/package.json",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_package",
+      "target": "backend_package_dependencies",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/package.json",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_package_dependencies",
+      "target": "backend_package_dependencies_cors",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/package.json",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_package_dependencies_cors",
+      "target": "cors",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/package.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "backend_package_dependencies",
+      "target": "backend_package_dependencies_discord_js",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/package.json",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_package_dependencies_discord_js",
+      "target": "discord_js",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/package.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "backend_package_dependencies",
+      "target": "backend_package_dependencies_dotenv",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/package.json",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_package_dependencies_dotenv",
+      "target": "dotenv",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "backend_package_dependencies",
+      "target": "backend_package_dependencies_express",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/package.json",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_package_dependencies_express",
+      "target": "express",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "backend_package_dependencies",
+      "target": "backend_package_dependencies_ws",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/package.json",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_package_dependencies_ws",
+      "target": "ws",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "src_alertengine",
+      "target": "config_officelayout",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/alertEngine.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_alertengine",
+      "target": "config_officelayout_alert_notification_cooldown_ms",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/alertEngine.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_alertengine",
+      "target": "config_officelayout_alert_types",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/alertEngine.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_alertengine",
+      "target": "config_officelayout_getroomlabel",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/alertEngine.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_alertengine",
+      "target": "config_officelayout_office_hours",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/alertEngine.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_alertengine",
+      "target": "config_officelayout_power_draw_watts",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/alertEngine.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_alertengine",
+      "target": "config_officelayout_prolonged_on_ms",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/alertEngine.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_alertengine",
+      "target": "config_officelayout_resolved_alert_retention_ms",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/alertEngine.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_alertengine",
+      "target": "config_officelayout_rooms",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/alertEngine.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_alertengine",
+      "target": "src_alertengine_asdate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/alertEngine.js",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_alertengine",
+      "target": "src_alertengine_isofficehours",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/alertEngine.js",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "src_alertengine",
+      "target": "src_alertengine_summarizedevices",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/alertEngine.js",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "src_alertengine",
+      "target": "src_alertengine_buildalertmessage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/alertEngine.js",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "src_alertengine",
+      "target": "src_alertengine_createalert",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/alertEngine.js",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "src_alertengine",
+      "target": "src_alertengine_sortalerts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/alertEngine.js",
+      "source_location": "L62",
+      "weight": 1.0
+    },
+    {
+      "source": "src_alertengine",
+      "target": "src_alertengine_createalertengine",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/alertEngine.js",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "src_alertengine_buildalertmessage",
+      "target": "src_alertengine_summarizedevices",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/alertEngine.js",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "src_alertengine_createalert",
+      "target": "src_alertengine_buildalertmessage",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/alertEngine.js",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_app_js_src_app",
+      "target": "node_http",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_app_js_src_app",
+      "target": "cors",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_app_js_src_app",
+      "target": "dotenv",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_app_js_src_app",
+      "target": "express",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_app_js_src_app",
+      "target": "src_alertengine",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_app_js_src_app",
+      "target": "src_alertengine_createalertengine",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_app_js_src_app",
+      "target": "src_devicestore",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_app_js_src_app",
+      "target": "src_devicestore_createdevicestore",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_app_js_src_app",
+      "target": "discord_bot",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_app_js_src_app",
+      "target": "discord_bot_creatediscordbot",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_app_js_src_app",
+      "target": "docs_openapi",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_app_js_src_app",
+      "target": "docs_openapi_createopenapispec",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_app_js_src_app",
+      "target": "routes_alerts",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.js",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_app_js_src_app",
+      "target": "routes_alerts_registeralertsroute",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.js",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_app_js_src_app",
+      "target": "routes_debug",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.js",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_app_js_src_app",
+      "target": "routes_debug_registerdebugroute",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.js",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_app_js_src_app",
+      "target": "routes_docs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.js",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_app_js_src_app",
+      "target": "routes_docs_registerdocsroutes",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.js",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_app_js_src_app",
+      "target": "routes_health",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.js",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_app_js_src_app",
+      "target": "routes_health_registerhealthroute",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.js",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_app_js_src_app",
+      "target": "routes_room",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.js",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_app_js_src_app",
+      "target": "routes_room_registerroomroute",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.js",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_app_js_src_app",
+      "target": "routes_status",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.js",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_app_js_src_app",
+      "target": "routes_status_registerstatusroute",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.js",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_app_js_src_app",
+      "target": "routes_usage",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.js",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_app_js_src_app",
+      "target": "routes_usage_registerusageroute",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.js",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_app_js_src_app",
+      "target": "src_simulator",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.js",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_app_js_src_app",
+      "target": "src_simulator_createsimulator",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.js",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_app_js_src_app",
+      "target": "config_officelayout",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.js",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_app_js_src_app",
+      "target": "config_officelayout_gettickintervalms",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.js",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_app_js_src_app",
+      "target": "ws_hub",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.js",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_app_js_src_app",
+      "target": "ws_hub_createwebsockethub",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.js",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_app_js_src_app",
+      "target": "src_app_createofficewatchbackend",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.js",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "config_officelayout",
+      "target": "config_officelayout_roomaliasentries",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/config/officeLayout.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "config_officelayout",
+      "target": "config_officelayout_rooms",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/config/officeLayout.js",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "config_officelayout",
+      "target": "config_officelayout_room_display_names",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/config/officeLayout.js",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "config_officelayout",
+      "target": "config_officelayout_room_aliases",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/config/officeLayout.js",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "config_officelayout",
+      "target": "config_officelayout_devices_per_room",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/config/officeLayout.js",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "config_officelayout",
+      "target": "config_officelayout_power_draw_watts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/config/officeLayout.js",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "config_officelayout",
+      "target": "config_officelayout_device_types",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/config/officeLayout.js",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "config_officelayout",
+      "target": "config_officelayout_device_type_counts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/config/officeLayout.js",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "config_officelayout",
+      "target": "config_officelayout_device_statuses",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/config/officeLayout.js",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "config_officelayout",
+      "target": "config_officelayout_alert_types",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/config/officeLayout.js",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "config_officelayout",
+      "target": "config_officelayout_office_hours",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/config/officeLayout.js",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "config_officelayout",
+      "target": "config_officelayout_gettickintervalms",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/config/officeLayout.js",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "config_officelayout",
+      "target": "config_officelayout_isdebugroutesenabled",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/config/officeLayout.js",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "config_officelayout",
+      "target": "config_officelayout_normalizeroomid",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/config/officeLayout.js",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "config_officelayout",
+      "target": "config_officelayout_getroomlabel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/config/officeLayout.js",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "config_officelayout",
+      "target": "config_officelayout_builddeviceid",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/config/officeLayout.js",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "src_devicestore",
+      "target": "config_officelayout",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/deviceStore.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_devicestore",
+      "target": "config_officelayout_builddeviceid",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/deviceStore.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_devicestore",
+      "target": "config_officelayout_device_statuses",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/deviceStore.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_devicestore",
+      "target": "config_officelayout_device_type_counts",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/deviceStore.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_devicestore",
+      "target": "config_officelayout_device_types",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/deviceStore.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_devicestore",
+      "target": "config_officelayout_getroomlabel",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/deviceStore.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_devicestore",
+      "target": "config_officelayout_power_draw_watts",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/deviceStore.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_devicestore",
+      "target": "config_officelayout_rooms",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/deviceStore.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_devicestore",
+      "target": "src_devicestore_clonedevice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/deviceStore.js",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "src_devicestore",
+      "target": "src_devicestore_asdate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/deviceStore.js",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "src_devicestore",
+      "target": "src_devicestore_daykey",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/deviceStore.js",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "src_devicestore",
+      "target": "src_devicestore_shuffle",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/deviceStore.js",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "src_devicestore",
+      "target": "src_devicestore_devicesortkey",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/deviceStore.js",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "src_devicestore",
+      "target": "src_devicestore_validatedeviceshape",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/deviceStore.js",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "src_devicestore",
+      "target": "src_devicestore_createcanonicaldevices",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/deviceStore.js",
+      "source_location": "L81",
+      "weight": 1.0
+    },
+    {
+      "source": "src_devicestore",
+      "target": "src_devicestore_seeddevices",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/deviceStore.js",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "src_devicestore",
+      "target": "src_devicestore_buildroomsummary",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/deviceStore.js",
+      "source_location": "L127",
+      "weight": 1.0
+    },
+    {
+      "source": "src_devicestore",
+      "target": "src_devicestore_createdevicestore",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/deviceStore.js",
+      "source_location": "L141",
+      "weight": 1.0
+    },
+    {
+      "source": "src_devicestore_validatedeviceshape",
+      "target": "src_devicestore_asdate",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/deviceStore.js",
+      "source_location": "L78",
+      "weight": 1.0
+    },
+    {
+      "source": "src_devicestore_seeddevices",
+      "target": "src_devicestore_createcanonicaldevices",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/deviceStore.js",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "src_devicestore_seeddevices",
+      "target": "src_devicestore_shuffle",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/deviceStore.js",
+      "source_location": "L108",
+      "weight": 1.0
+    },
+    {
+      "source": "src_devicestore_createdevicestore",
+      "target": "src_devicestore_asdate",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/deviceStore.js",
+      "source_location": "L144",
+      "weight": 1.0
+    },
+    {
+      "source": "src_devicestore_createdevicestore",
+      "target": "src_devicestore_seeddevices",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/deviceStore.js",
+      "source_location": "L152",
+      "weight": 1.0
+    },
+    {
+      "source": "src_devicestore_createdevicestore",
+      "target": "src_devicestore_daykey",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/deviceStore.js",
+      "source_location": "L155",
+      "weight": 1.0
+    },
+    {
+      "source": "discord_bot",
+      "target": "discord_js",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/discord/bot.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "discord_bot",
+      "target": "discord_responseformatter",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/discord/bot.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "discord_bot",
+      "target": "discord_responseformatter_formatalertnotification",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/discord/bot.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "discord_bot",
+      "target": "commands_room",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/discord/bot.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "discord_bot",
+      "target": "commands_room_handleroomcommand",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/discord/bot.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "discord_bot",
+      "target": "commands_status",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/discord/bot.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "discord_bot",
+      "target": "commands_status_handlestatuscommand",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/discord/bot.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "discord_bot",
+      "target": "commands_usage",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/discord/bot.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "discord_bot",
+      "target": "commands_usage_handleusagecommand",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/discord/bot.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "discord_bot",
+      "target": "discord_bot_creatediscordbot",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/discord/bot.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "commands_room",
+      "target": "discord_responseformatter",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/discord/commands/room.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "commands_room",
+      "target": "discord_responseformatter_formatroomresponse",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/discord/commands/room.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "commands_room",
+      "target": "config_officelayout",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/discord/commands/room.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "commands_room",
+      "target": "config_officelayout_normalizeroomid",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/discord/commands/room.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "commands_room",
+      "target": "config_officelayout_rooms",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/discord/commands/room.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "commands_room",
+      "target": "commands_room_handleroomcommand",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/discord/commands/room.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "commands_status",
+      "target": "discord_responseformatter",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/discord/commands/status.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "commands_status",
+      "target": "discord_responseformatter_formatstatusresponse",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/discord/commands/status.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "commands_status",
+      "target": "commands_status_handlestatuscommand",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/discord/commands/status.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "commands_usage",
+      "target": "discord_responseformatter",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/discord/commands/usage.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "commands_usage",
+      "target": "discord_responseformatter_formatusageresponse",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/discord/commands/usage.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "commands_usage",
+      "target": "commands_usage_handleusagecommand",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/discord/commands/usage.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "discord_responseformatter",
+      "target": "config_officelayout",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/discord/responseFormatter.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "discord_responseformatter",
+      "target": "config_officelayout_getroomlabel",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/discord/responseFormatter.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "discord_responseformatter",
+      "target": "config_officelayout_rooms",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/discord/responseFormatter.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "discord_responseformatter",
+      "target": "discord_responseformatter_describeroom",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/discord/responseFormatter.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "discord_responseformatter",
+      "target": "discord_responseformatter_formatstatusresponse",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/discord/responseFormatter.js",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "discord_responseformatter",
+      "target": "discord_responseformatter_formatroomresponse",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/discord/responseFormatter.js",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "discord_responseformatter",
+      "target": "discord_responseformatter_formatusageresponse",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/discord/responseFormatter.js",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "discord_responseformatter",
+      "target": "discord_responseformatter_formatalertnotification",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/discord/responseFormatter.js",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "discord_responseformatter_formatroomresponse",
+      "target": "discord_responseformatter_describeroom",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/discord/responseFormatter.js",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_openapi",
+      "target": "docs_openapi_createopenapispec",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/docs/openapi.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_alerts",
+      "target": "routes_alerts_registeralertsroute",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/routes/alerts.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_debug",
+      "target": "config_officelayout",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/routes/debug.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_debug",
+      "target": "config_officelayout_isdebugroutesenabled",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/routes/debug.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_debug",
+      "target": "routes_helpers",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/routes/debug.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_debug",
+      "target": "routes_helpers_requireknownalerttype",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/routes/debug.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_debug",
+      "target": "routes_helpers_requireknownroom",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/routes/debug.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_debug",
+      "target": "routes_helpers_senderror",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/routes/debug.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_debug",
+      "target": "routes_debug_registerdebugroute",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/routes/debug.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_docs",
+      "target": "routes_docs_registerdocsroutes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/routes/docs.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_health",
+      "target": "routes_health_registerhealthroute",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/routes/health.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_helpers",
+      "target": "config_officelayout",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/routes/helpers.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_helpers",
+      "target": "config_officelayout_alert_types",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/routes/helpers.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_helpers",
+      "target": "config_officelayout_normalizeroomid",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/routes/helpers.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_helpers",
+      "target": "config_officelayout_rooms",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/routes/helpers.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_helpers",
+      "target": "routes_helpers_senderror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/routes/helpers.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_helpers",
+      "target": "routes_helpers_requireknownroom",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/routes/helpers.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_helpers",
+      "target": "routes_helpers_requireknownalerttype",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/routes/helpers.js",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_room",
+      "target": "routes_helpers",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/routes/room.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_room",
+      "target": "routes_helpers_requireknownroom",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/routes/room.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_room",
+      "target": "routes_helpers_senderror",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/routes/room.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_room",
+      "target": "routes_room_registerroomroute",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/routes/room.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_status",
+      "target": "routes_status_registerstatusroute",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/routes/status.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_usage",
+      "target": "routes_usage_registerusageroute",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/routes/usage.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server",
+      "target": "src_app",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/server.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server",
+      "target": "src_app_createofficewatchbackend",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/server.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server",
+      "target": "src_server_runtime",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/server.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server",
+      "target": "src_server_shutdown",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/server.js",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "src_simulator",
+      "target": "src_simulator_createsimulator",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/simulator.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "ws_hub",
+      "target": "ws",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/ws/hub.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "ws_hub",
+      "target": "ws_hub_sendjson",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/ws/hub.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "ws_hub",
+      "target": "ws_hub_createwebsockethub",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/ws/hub.js",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "test_alertengine_test",
+      "target": "node_test",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/test/alertEngine.test.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "test_alertengine_test",
+      "target": "strict",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/test/alertEngine.test.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "test_alertengine_test",
+      "target": "src_alertengine",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/test/alertEngine.test.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "test_alertengine_test",
+      "target": "src_alertengine_createalertengine",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/test/alertEngine.test.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "test_alertengine_test",
+      "target": "test_alertengine_test_roomdevices",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/test/alertEngine.test.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "test_api_test",
+      "target": "node_test",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/test/api.test.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "test_api_test",
+      "target": "strict",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/test/api.test.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "test_api_test",
+      "target": "node_events",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/test/api.test.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "test_api_test",
+      "target": "ws",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/test/api.test.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "test_api_test",
+      "target": "src_app",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/test/api.test.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "test_api_test",
+      "target": "src_app_createofficewatchbackend",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/test/api.test.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "test_api_test",
+      "target": "test_api_test_createrunningbackend",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/test/api.test.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "test_devicestore_test",
+      "target": "node_test",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/test/deviceStore.test.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "test_devicestore_test",
+      "target": "strict",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/test/deviceStore.test.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "test_devicestore_test",
+      "target": "src_devicestore",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/test/deviceStore.test.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "test_devicestore_test",
+      "target": "src_devicestore_createdevicestore",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/test/deviceStore.test.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_oxlintrc",
+      "target": "dashboard_oxlintrc_schema",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/.oxlintrc.json",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_oxlintrc",
+      "target": "dashboard_oxlintrc_plugins",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/.oxlintrc.json",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_oxlintrc_plugins",
+      "target": "ref_react",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/.oxlintrc.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "dashboard_oxlintrc_plugins",
+      "target": "ref_oxc",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/.oxlintrc.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "dashboard_oxlintrc",
+      "target": "dashboard_oxlintrc_rules",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/.oxlintrc.json",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_oxlintrc_rules",
+      "target": "dashboard_oxlintrc_rules_react_rules_of_hooks",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/.oxlintrc.json",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_oxlintrc_rules",
+      "target": "dashboard_oxlintrc_rules_react_only_export_components",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/.oxlintrc.json",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_oxlintrc_rules_react_only_export_components",
+      "target": "ref_warn",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/.oxlintrc.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "dashboard_package",
+      "target": "dashboard_package_name",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/package.json",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_package",
+      "target": "dashboard_package_private",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/package.json",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_package",
+      "target": "dashboard_package_version",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/package.json",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_package",
+      "target": "dashboard_package_type",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/package.json",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_package",
+      "target": "dashboard_package_scripts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/package.json",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_package_scripts",
+      "target": "dashboard_package_scripts_dev",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/package.json",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_package_scripts",
+      "target": "dashboard_package_scripts_build",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/package.json",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_package_scripts",
+      "target": "dashboard_package_scripts_lint",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/package.json",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_package_scripts",
+      "target": "dashboard_package_scripts_preview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/package.json",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_package",
+      "target": "dashboard_package_dependencies",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/package.json",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_package_dependencies",
+      "target": "dashboard_package_dependencies_tailwindcss_vite",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/package.json",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_package_dependencies_tailwindcss_vite",
+      "target": "tailwindcss_vite",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "dashboard_package_dependencies",
+      "target": "dashboard_package_dependencies_gsap",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/package.json",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_package_dependencies_gsap",
+      "target": "gsap",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "dashboard_package_dependencies",
+      "target": "dashboard_package_dependencies_lucide_react",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/package.json",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_package_dependencies_lucide_react",
+      "target": "lucide_react",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "dashboard_package_dependencies",
+      "target": "dashboard_package_dependencies_motion",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/package.json",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_package_dependencies_motion",
+      "target": "motion",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "dashboard_package_dependencies",
+      "target": "dashboard_package_dependencies_react",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/package.json",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_package_dependencies_react",
+      "target": "react",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "dashboard_package_dependencies",
+      "target": "dashboard_package_dependencies_react_dom",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/package.json",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_package_dependencies_react_dom",
+      "target": "react_dom",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/package.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "dashboard_package_dependencies",
+      "target": "dashboard_package_dependencies_tailwindcss",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/package.json",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_package_dependencies_tailwindcss",
+      "target": "tailwindcss",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/package.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "dashboard_package",
+      "target": "dashboard_package_devdependencies",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/package.json",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_package_devdependencies",
+      "target": "dashboard_package_devdependencies_types_react",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/package.json",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_package_devdependencies_types_react",
+      "target": "types_react",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/package.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "dashboard_package_devdependencies",
+      "target": "dashboard_package_devdependencies_types_react_dom",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/package.json",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_package_devdependencies_types_react_dom",
+      "target": "types_react_dom",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "dashboard_package_devdependencies",
+      "target": "dashboard_package_devdependencies_vitejs_plugin_react",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/package.json",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_package_devdependencies_vitejs_plugin_react",
+      "target": "vitejs_plugin_react",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "dashboard_package_devdependencies",
+      "target": "dashboard_package_devdependencies_oxlint",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/package.json",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_package_devdependencies_oxlint",
+      "target": "oxlint",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "dashboard_package_devdependencies",
+      "target": "dashboard_package_devdependencies_vite",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/package.json",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_package_devdependencies_vite",
+      "target": "vite",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/package.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "dashboard_src_app_jsx_src_app",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/src/App.jsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_src_app_jsx_src_app",
+      "target": "hooks_usedatalayer",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/src/App.jsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_src_app_jsx_src_app",
+      "target": "hooks_usedatalayer_usedatalayer",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/src/App.jsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_src_app_jsx_src_app",
+      "target": "components_powermeter",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/src/App.jsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_src_app_jsx_src_app",
+      "target": "components_powermeter_powermeter",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/src/App.jsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_src_app_jsx_src_app",
+      "target": "components_alertspanel",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/src/App.jsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_src_app_jsx_src_app",
+      "target": "components_alertspanel_alertspanel",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/src/App.jsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_src_app_jsx_src_app",
+      "target": "components_devicestatuspanel",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/src/App.jsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_src_app_jsx_src_app",
+      "target": "components_devicestatuspanel_devicestatuspanel",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/src/App.jsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_src_app_jsx_src_app",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/src/App.jsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_src_app_jsx_src_app",
+      "target": "src_app_app",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/src/App.jsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "components_alertspanel",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/src/components/AlertsPanel.jsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "components_alertspanel",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/src/components/AlertsPanel.jsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "components_alertspanel",
+      "target": "components_alertspanel_alertspanel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/src/components/AlertsPanel.jsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "components_devicestatuspanel",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/src/components/DeviceStatusPanel.jsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "components_devicestatuspanel",
+      "target": "gsap",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/src/components/DeviceStatusPanel.jsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "components_devicestatuspanel",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/src/components/DeviceStatusPanel.jsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "components_devicestatuspanel",
+      "target": "components_devicestatuspanel_room_names",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/src/components/DeviceStatusPanel.jsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "components_devicestatuspanel",
+      "target": "components_devicestatuspanel_fanicon",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/src/components/DeviceStatusPanel.jsx",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "components_devicestatuspanel",
+      "target": "components_devicestatuspanel_lighticon",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/src/components/DeviceStatusPanel.jsx",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "components_devicestatuspanel",
+      "target": "components_devicestatuspanel_devicecard",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/src/components/DeviceStatusPanel.jsx",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "components_devicestatuspanel",
+      "target": "components_devicestatuspanel_devicestatuspanel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/src/components/DeviceStatusPanel.jsx",
+      "source_location": "L95",
+      "weight": 1.0
+    },
+    {
+      "source": "components_powermeter",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/src/components/PowerMeter.jsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "components_powermeter",
+      "target": "gsap",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/src/components/PowerMeter.jsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "components_powermeter",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/src/components/PowerMeter.jsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "components_powermeter",
+      "target": "components_powermeter_powermeter",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/src/components/PowerMeter.jsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "hooks_usedatalayer",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/src/hooks/useDataLayer.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "hooks_usedatalayer",
+      "target": "hooks_usedatalayer_usedatalayer",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/src/hooks/useDataLayer.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_main",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/src/main.jsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_main",
+      "target": "client",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/src/main.jsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_main",
+      "target": "run_media_hunterlog2_new_volume_files_officewatch_dashboard_src_index_css",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/src/main.jsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_main",
+      "target": "src_app",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/src/main.jsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_vite_config",
+      "target": "vite",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/vite.config.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_vite_config",
+      "target": "plugin_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/vite.config.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "agents",
+      "target": "agents_agents_md_operating_rules_for_coding_agents",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_agents_md_operating_rules_for_coding_agents",
+      "target": "agents_1_source_of_truth_hierarchy",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_agents_md_operating_rules_for_coding_agents",
+      "target": "agents_2_known_open_issue_resolved_do_not_reopen",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_agents_md_operating_rules_for_coding_agents",
+      "target": "agents_3_no_invented_data",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_agents_md_operating_rules_for_coding_agents",
+      "target": "agents_4_no_silent_scope_expansion",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_agents_md_operating_rules_for_coding_agents",
+      "target": "agents_5_hardware_schematic_boundaries",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_agents_md_operating_rules_for_coding_agents",
+      "target": "agents_6_when_requirements_are_ambiguous",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_agents_md_operating_rules_for_coding_agents",
+      "target": "agents_7_error_handling_is_not_optional",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_agents_md_operating_rules_for_coding_agents",
+      "target": "agents_8_commit_hygiene",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_agents_md_operating_rules_for_coding_agents",
+      "target": "agents_9_self_check_before_declaring_a_task_done",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L89",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_agents_md_operating_rules_for_coding_agents",
+      "target": "agents_10_agent_generated_artifacts_do_not_belong_in_version_control",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L102",
+      "weight": 1.0
+    },
+    {
+      "source": "package_manifest",
+      "target": "package_manifest_documentation_package_officewatch",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PACKAGE_MANIFEST.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "package_manifest_documentation_package_officewatch",
+      "target": "package_manifest_contents",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PACKAGE_MANIFEST.md",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "package_manifest_documentation_package_officewatch",
+      "target": "package_manifest_suggested_use",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PACKAGE_MANIFEST.md",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "package_manifest_documentation_package_officewatch",
+      "target": "package_manifest_status",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PACKAGE_MANIFEST.md",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "readme",
+      "target": "readme_officewatch",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_officewatch",
+      "target": "readme_table_of_contents",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_officewatch",
+      "target": "readme_overview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_officewatch",
+      "target": "readme_features",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_officewatch",
+      "target": "readme_architecture",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "readme",
+      "target": "diagrams_system_architecture_diagram",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "readme",
+      "target": "docs_architecture",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_officewatch",
+      "target": "readme_tech_stack",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_officewatch",
+      "target": "readme_getting_started",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_getting_started",
+      "target": "readme_prerequisites",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_getting_started",
+      "target": "readme_installation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_getting_started",
+      "target": "readme_configuration",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_getting_started",
+      "target": "readme_running_the_system",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_getting_started",
+      "target": "readme_running_the_dashboard",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L113",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_officewatch",
+      "target": "readme_environment_variables",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L122",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_officewatch",
+      "target": "readme_api_reference",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L138",
+      "weight": 1.0
+    },
+    {
+      "source": "readme",
+      "target": "backend_api_documentation",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L153",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_officewatch",
+      "target": "readme_discord_commands",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L155",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_officewatch",
+      "target": "readme_hardware_circuit_concept",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L165",
+      "weight": 1.0
+    },
+    {
+      "source": "readme",
+      "target": "diagrams_circuit_wiring_diagram",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L169",
+      "weight": 1.0
+    },
+    {
+      "source": "readme",
+      "target": "diagrams_component_list",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L170",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_officewatch",
+      "target": "readme_project_structure",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L175",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_officewatch",
+      "target": "readme_known_limitations",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L199",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_officewatch",
+      "target": "readme_testing",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L210",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_officewatch",
+      "target": "readme_demo",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L219",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_officewatch",
+      "target": "readme_license",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L223",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_api_documentation",
+      "target": "backend_api_documentation_officewatch_backend_api_documentation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/API_DOCUMENTATION.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_api_documentation_officewatch_backend_api_documentation",
+      "target": "backend_api_documentation_rest_summary",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/API_DOCUMENTATION.md",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_api_documentation_officewatch_backend_api_documentation",
+      "target": "backend_api_documentation_websocket_summary",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/API_DOCUMENTATION.md",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_api_documentation_officewatch_backend_api_documentation",
+      "target": "backend_api_documentation_notes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/API_DOCUMENTATION.md",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_readme",
+      "target": "dashboard_readme_react_vite",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/README.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_readme_react_vite",
+      "target": "dashboard_readme_react_compiler",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/README.md",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "dashboard_readme_react_vite",
+      "target": "dashboard_readme_expanding_the_oxlint_configuration",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/README.md",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "diagrams_circuit_wiring_diagram",
+      "target": "diagrams_circuit_wiring_diagram_circuit_wiring_diagram_work_room_1_reference_for_wokwi_tinkercad",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "diagrams/Circuit_Wiring_Diagram.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "diagrams_circuit_wiring_diagram_circuit_wiring_diagram_work_room_1_reference_for_wokwi_tinkercad",
+      "target": "diagrams_circuit_wiring_diagram_color_legend",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "diagrams/Circuit_Wiring_Diagram.md",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "diagrams_circuit_wiring_diagram_circuit_wiring_diagram_work_room_1_reference_for_wokwi_tinkercad",
+      "target": "diagrams_circuit_wiring_diagram_wiring_diagram",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "diagrams/Circuit_Wiring_Diagram.md",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "diagrams_circuit_wiring_diagram_circuit_wiring_diagram_work_room_1_reference_for_wokwi_tinkercad",
+      "target": "diagrams_circuit_wiring_diagram_pin_mapping_table",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "diagrams/Circuit_Wiring_Diagram.md",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "diagrams_circuit_wiring_diagram_circuit_wiring_diagram_work_room_1_reference_for_wokwi_tinkercad",
+      "target": "diagrams_circuit_wiring_diagram_electrical_reasoning_summary_full_detail_in_architecture_md_3_3",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "diagrams/Circuit_Wiring_Diagram.md",
+      "source_location": "L89",
+      "weight": 1.0
+    },
+    {
+      "source": "diagrams_component_list",
+      "target": "diagrams_component_list_component_list_circuit_simulation_wokwi_tinkercad",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "diagrams/Component_List.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "diagrams_component_list_component_list_circuit_simulation_wokwi_tinkercad",
+      "target": "diagrams_component_list_bill_of_materials",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "diagrams/Component_List.md",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "diagrams_component_list_component_list_circuit_simulation_wokwi_tinkercad",
+      "target": "diagrams_component_list_quantity_summary",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "diagrams/Component_List.md",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "diagrams_component_list_component_list_circuit_simulation_wokwi_tinkercad",
+      "target": "diagrams_component_list_what_this_list_deliberately_excludes_and_why",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "diagrams/Component_List.md",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "diagrams_component_list_component_list_circuit_simulation_wokwi_tinkercad",
+      "target": "diagrams_component_list_pin_usage_cross_reference",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "diagrams/Component_List.md",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "diagrams_system_architecture_diagram",
+      "target": "diagrams_system_architecture_diagram_system_architecture_diagram_officewatch",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "diagrams/System_Architecture_Diagram.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "diagrams_system_architecture_diagram_system_architecture_diagram_officewatch",
+      "target": "diagrams_system_architecture_diagram_color_legend",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "diagrams/System_Architecture_Diagram.md",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "diagrams_system_architecture_diagram_system_architecture_diagram_officewatch",
+      "target": "diagrams_system_architecture_diagram_part_1_inside_the_backend_single_node_js_process",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "diagrams/System_Architecture_Diagram.md",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "diagrams_system_architecture_diagram_system_architecture_diagram_officewatch",
+      "target": "diagrams_system_architecture_diagram_part_2_backend_to_interfaces_to_end_users",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "diagrams/System_Architecture_Diagram.md",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "diagrams_system_architecture_diagram_system_architecture_diagram_officewatch",
+      "target": "diagrams_system_architecture_diagram_flow_narrative_for_the_video_demo_script",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "diagrams/System_Architecture_Diagram.md",
+      "source_location": "L93",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_architecture",
+      "target": "docs_architecture_officewatch_design_documentation_v1_3",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_architecture_officewatch_design_documentation_v1_3",
+      "target": "docs_architecture_0_evaluation_criteria_coverage_matrix",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_architecture_officewatch_design_documentation_v1_3",
+      "target": "docs_architecture_2_high_level_system_diagram_description_for_manual_drawing",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_architecture_officewatch_design_documentation_v1_3",
+      "target": "docs_architecture_3_hardware_electrical_schematic_for_wokwi_tinkercad_build_this_manually",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L78",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_architecture_3_hardware_electrical_schematic_for_wokwi_tinkercad_build_this_manually",
+      "target": "docs_architecture_3_1_component_list",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L82",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_architecture_3_hardware_electrical_schematic_for_wokwi_tinkercad_build_this_manually",
+      "target": "docs_architecture_3_2_pin_mapping_table_esp32_one_room_5_controllable_devices_2_fans_3_lights",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L94",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_architecture_3_hardware_electrical_schematic_for_wokwi_tinkercad_build_this_manually",
+      "target": "docs_architecture_3_3_electrical_reasoning",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L114",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_architecture_3_hardware_electrical_schematic_for_wokwi_tinkercad_build_this_manually",
+      "target": "docs_architecture_3_4_what_the_firmware_conceptually_does_no_code_needed_for_the_schematic_just_the_logic",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L120",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_architecture_officewatch_design_documentation_v1_3",
+      "target": "docs_architecture_4_data_model",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L129",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_architecture_4_data_model",
+      "target": "docs_architecture_4_1_device_inventory_constants",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L131",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_architecture_4_data_model",
+      "target": "docs_architecture_4_2_device_object_single_source_of_truth_shape",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L149",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_architecture_4_data_model",
+      "target": "docs_architecture_4_3_derived_computed_values_never_stored_always_calculated_on_read",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L167",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_architecture_4_data_model",
+      "target": "docs_architecture_4_4_alert_object",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L174",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_architecture_officewatch_design_documentation_v1_3",
+      "target": "docs_architecture_5_api_specification",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L196",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_architecture_5_api_specification",
+      "target": "docs_architecture_5_1_rest_endpoints",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L198",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_architecture_5_api_specification",
+      "target": "docs_architecture_5_2_websocket_protocol",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L218",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_architecture_officewatch_design_documentation_v1_3",
+      "target": "docs_architecture_6_alert_logic_exact_rules_no_ambiguity_for_implementation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L237",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_architecture_officewatch_design_documentation_v1_3",
+      "target": "docs_architecture_7_discord_bot_specification",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L256",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_architecture_officewatch_design_documentation_v1_3",
+      "target": "docs_architecture_8_concurrency_failure_handling_why_this_holds_up_under_pressure",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L273",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_architecture_officewatch_design_documentation_v1_3",
+      "target": "docs_architecture_9_suggested_folder_structure",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L286",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_architecture_officewatch_design_documentation_v1_3",
+      "target": "docs_architecture_10_validation_testing_plan",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L337",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_architecture_officewatch_design_documentation_v1_3",
+      "target": "docs_architecture_11_open_assumptions_log_carry_into_readme_as_is",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L350",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_architecture_officewatch_design_documentation_v1_3",
+      "target": "docs_architecture_12_edge_case_logical_consistency_audit_summary",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L368",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_frontend_build_instructions",
+      "target": "docs_frontend_build_instructions_frontend_build_instructions_office_power_monitoring_dashboard",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/FRONTEND_BUILD_INSTRUCTIONS.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_frontend_build_instructions_frontend_build_instructions_office_power_monitoring_dashboard",
+      "target": "docs_frontend_build_instructions_1_what_this_app_talks_to",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/FRONTEND_BUILD_INSTRUCTIONS.md",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_frontend_build_instructions_1_what_this_app_talks_to",
+      "target": "docs_frontend_build_instructions_rest_endpoints_initial_load_fallback_poll_only",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/FRONTEND_BUILD_INSTRUCTIONS.md",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_frontend_build_instructions_1_what_this_app_talks_to",
+      "target": "docs_frontend_build_instructions_websocket_ws",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/FRONTEND_BUILD_INSTRUCTIONS.md",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_frontend_build_instructions_frontend_build_instructions_office_power_monitoring_dashboard",
+      "target": "docs_frontend_build_instructions_2_connection_lifecycle_non_negotiable_per_5_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/FRONTEND_BUILD_INSTRUCTIONS.md",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_frontend_build_instructions_frontend_build_instructions_office_power_monitoring_dashboard",
+      "target": "docs_frontend_build_instructions_3_required_screens_panels_minimum_bar_from_the_spec",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/FRONTEND_BUILD_INSTRUCTIONS.md",
+      "source_location": "L90",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_frontend_build_instructions_frontend_build_instructions_office_power_monitoring_dashboard",
+      "target": "docs_frontend_build_instructions_4_states_the_ui_must_not_get_wrong",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/FRONTEND_BUILD_INSTRUCTIONS.md",
+      "source_location": "L112",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_frontend_build_instructions_frontend_build_instructions_office_power_monitoring_dashboard",
+      "target": "docs_frontend_build_instructions_5_room_display_names",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/FRONTEND_BUILD_INSTRUCTIONS.md",
+      "source_location": "L133",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_frontend_build_instructions_frontend_build_instructions_office_power_monitoring_dashboard",
+      "target": "docs_frontend_build_instructions_6_animation_use_gsap_keep_it_purposeful",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/FRONTEND_BUILD_INSTRUCTIONS.md",
+      "source_location": "L151",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_frontend_build_instructions_frontend_build_instructions_office_power_monitoring_dashboard",
+      "target": "docs_frontend_build_instructions_7_what_not_to_build_into_the_frontend",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/FRONTEND_BUILD_INSTRUCTIONS.md",
+      "source_location": "L180",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_frontend_build_instructions_frontend_build_instructions_office_power_monitoring_dashboard",
+      "target": "docs_frontend_build_instructions_8_handoff_checklist_before_calling_this_done",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/FRONTEND_BUILD_INSTRUCTIONS.md",
+      "source_location": "L195",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_frontend_build_instructions_frontend_build_instructions_office_power_monitoring_dashboard",
+      "target": "docs_frontend_build_instructions_design_process_separate_step_not_covered_by_this_document",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/FRONTEND_BUILD_INSTRUCTIONS.md",
+      "source_location": "L212",
+      "weight": 1.0
+    },
+    {
+      "source": "tasks_todo",
+      "target": "tasks_todo_officewatch_backend_todo",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tasks/todo.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "tasks_todo_officewatch_backend_todo",
+      "target": "tasks_todo_plan",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tasks/todo.md",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "tasks_todo_officewatch_backend_todo",
+      "target": "tasks_todo_progress",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tasks/todo.md",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "tasks_todo_officewatch_backend_todo",
+      "target": "tasks_todo_verification_notes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tasks/todo.md",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "src_main",
+      "target": "src_app_app",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/src/main.jsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_alertengine_buildalertmessage",
+      "target": "config_officelayout_getroomlabel",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/alertEngine.js",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "src_alertengine_createalert",
+      "target": "config_officelayout_getroomlabel",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/alertEngine.js",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "src_devicestore_createcanonicaldevices",
+      "target": "config_officelayout_builddeviceid",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/deviceStore.js",
+      "source_location": "L89",
+      "weight": 1.0
+    },
+    {
+      "source": "src_devicestore_buildroomsummary",
+      "target": "config_officelayout_getroomlabel",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/deviceStore.js",
+      "source_location": "L134",
+      "weight": 1.0
+    },
+    {
+      "source": "test_api_test_createrunningbackend",
+      "target": "src_app_createofficewatchbackend",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/test/api.test.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_createofficewatchbackend",
+      "target": "config_officelayout_gettickintervalms",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/src/app.js",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_createofficewatchbackend",
+      "target": "src_devicestore_createdevicestore",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/src/app.js",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_createofficewatchbackend",
+      "target": "src_alertengine_createalertengine",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/src/app.js",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_createofficewatchbackend",
+      "target": "ws_hub_createwebsockethub",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/src/app.js",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_createofficewatchbackend",
+      "target": "discord_bot_creatediscordbot",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/src/app.js",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_createofficewatchbackend",
+      "target": "src_simulator_createsimulator",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/src/app.js",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_createofficewatchbackend",
+      "target": "docs_openapi_createopenapispec",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/src/app.js",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_createofficewatchbackend",
+      "target": "routes_status_registerstatusroute",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/src/app.js",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_createofficewatchbackend",
+      "target": "routes_room_registerroomroute",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/src/app.js",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_createofficewatchbackend",
+      "target": "routes_usage_registerusageroute",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/src/app.js",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_createofficewatchbackend",
+      "target": "routes_alerts_registeralertsroute",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/src/app.js",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_createofficewatchbackend",
+      "target": "routes_health_registerhealthroute",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/src/app.js",
+      "source_location": "L62",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_createofficewatchbackend",
+      "target": "routes_debug_registerdebugroute",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/src/app.js",
+      "source_location": "L74",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_createofficewatchbackend",
+      "target": "routes_docs_registerdocsroutes",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/src/app.js",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "commands_room_handleroomcommand",
+      "target": "config_officelayout_normalizeroomid",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/discord/commands/room.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "commands_room_handleroomcommand",
+      "target": "discord_responseformatter_formatroomresponse",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/discord/commands/room.js",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "commands_status_handlestatuscommand",
+      "target": "discord_responseformatter_formatstatusresponse",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/discord/commands/status.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "commands_usage_handleusagecommand",
+      "target": "discord_responseformatter_formatusageresponse",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/discord/commands/usage.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_helpers_requireknownroom",
+      "target": "config_officelayout_normalizeroomid",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/routes/helpers.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app",
+      "target": "hooks_usedatalayer_usedatalayer",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "dashboard/src/App.jsx",
+      "source_location": "L23",
+      "weight": 1.0
+    }
+  ]
+}

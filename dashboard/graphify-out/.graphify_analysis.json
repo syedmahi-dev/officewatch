@@ -1,0 +1,177 @@
+{
+  "communities": {
+    "0": [
+      "components_alertspanel",
+      "components_alertspanel_alertspanel",
+      "components_devicestatuspanel",
+      "components_devicestatuspanel_devicecard",
+      "components_devicestatuspanel_devicestatuspanel",
+      "components_devicestatuspanel_fanicon",
+      "components_devicestatuspanel_lighticon",
+      "components_devicestatuspanel_room_names",
+      "components_powermeter",
+      "components_powermeter_powermeter",
+      "src_app"
+    ],
+    "1": [
+      "package",
+      "package_name",
+      "package_private",
+      "package_scripts",
+      "package_scripts_build",
+      "package_scripts_dev",
+      "package_scripts_lint",
+      "package_scripts_preview",
+      "package_type",
+      "package_version"
+    ],
+    "2": [
+      "hooks_usedatalayer",
+      "hooks_usedatalayer_normalizealerts",
+      "hooks_usedatalayer_normalizeusage",
+      "hooks_usedatalayer_usedatalayer",
+      "index_html",
+      "public_favicon_svg",
+      "src_app_app",
+      "src_main"
+    ],
+    "3": [
+      "package_dependencies",
+      "package_dependencies_gsap",
+      "package_dependencies_lucide_react",
+      "package_dependencies_motion",
+      "package_dependencies_react",
+      "package_dependencies_react_dom",
+      "package_dependencies_tailwindcss",
+      "package_dependencies_tailwindcss_vite"
+    ],
+    "4": [
+      "oxlintrc",
+      "oxlintrc_plugins",
+      "oxlintrc_rules",
+      "oxlintrc_rules_react_only_export_components",
+      "oxlintrc_rules_react_rules_of_hooks",
+      "oxlintrc_schema"
+    ],
+    "5": [
+      "package_devdependencies",
+      "package_devdependencies_oxlint",
+      "package_devdependencies_types_react",
+      "package_devdependencies_types_react_dom",
+      "package_devdependencies_vite",
+      "package_devdependencies_vitejs_plugin_react"
+    ],
+    "6": [
+      "readme_react_compiler",
+      "readme_react_vite",
+      "readme_vite_plugin_react",
+      "readme_vite_plugin_react_swc",
+      "src_assets_hero_png"
+    ],
+    "7": [
+      "public_icons_svg"
+    ],
+    "8": [
+      "src_assets_react_svg"
+    ],
+    "9": [
+      "src_assets_vite_svg"
+    ],
+    "10": [
+      "vite_config"
+    ]
+  },
+  "cohesion": {
+    "0": 0.23636363636363636,
+    "1": 0.2,
+    "2": 0.25,
+    "3": 0.25,
+    "4": 0.3333333333333333,
+    "5": 0.3333333333333333,
+    "6": 0.4,
+    "7": 1.0,
+    "8": 1.0,
+    "9": 1.0,
+    "10": 1.0
+  },
+  "gods": [
+    {
+      "id": "package_scripts",
+      "label": "scripts",
+      "degree": 5
+    },
+    {
+      "id": "readme_react_vite",
+      "label": "React + Vite Template",
+      "degree": 4
+    },
+    {
+      "id": "oxlintrc_rules",
+      "label": "rules",
+      "degree": 3
+    },
+    {
+      "id": "src_app_app",
+      "label": "App()",
+      "degree": 3
+    },
+    {
+      "id": "hooks_usedatalayer_usedatalayer",
+      "label": "useDataLayer()",
+      "degree": 3
+    },
+    {
+      "id": "components_alertspanel_alertspanel",
+      "label": "AlertsPanel()",
+      "degree": 2
+    },
+    {
+      "id": "components_devicestatuspanel_devicestatuspanel",
+      "label": "DeviceStatusPanel()",
+      "degree": 2
+    },
+    {
+      "id": "components_powermeter_powermeter",
+      "label": "PowerMeter()",
+      "degree": 2
+    },
+    {
+      "id": "oxlintrc_schema",
+      "label": "$schema",
+      "degree": 1
+    },
+    {
+      "id": "oxlintrc_plugins",
+      "label": "plugins",
+      "degree": 1
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Hero Illustration",
+      "target": "React + Vite Template",
+      "source_files": [
+        "src/assets/hero.png",
+        "README.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (doc \u2194 image); connects across different repos/directories"
+    },
+    {
+      "source": "App()",
+      "target": "useDataLayer()",
+      "source_files": [
+        "src/App.jsx",
+        "src/hooks/useDataLayer.js"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "cross-file semantic connection"
+    }
+  ],
+  "tokens": {
+    "input": 19248,
+    "output": 777
+  }
+}

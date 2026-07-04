@@ -1,0 +1,66 @@
+# --- Dependencies ---
+node_modules/
+.pnp
+.pnp.js
+
+# --- Environment / secrets ---
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# --- Build output ---
+dist/
+build/
+.vite/
+.next/
+out/
+
+# --- Logs ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Testing / coverage ---
+coverage/
+
+# --- Local app data ---
+backend/data/
+
+# --- Coding-agent / AI-assistant working files ---
+# These are scratch, cache, session, and config directories created by
+# AI coding assistants during development. None of them are project source
+# and none should ever be committed, regardless of which tool created them.
+.claude/
+.claude-*
+CLAUDE_SCRATCH*
+.codex/
+.codex-*
+.cursor/
+.cursorignore
+.cursorrules.local
+.aider*
+.continue/
+.windsurf/
+.copilot/
+.github/copilot-workspace/
+*.agent-session.json
+*.agent.log
+.agent-cache/
+.mcp-logs/
+.chat-transcripts/
+agent_scratch/
+
+# --- Debug scripts (local only) ---
+debug-commands.sh
