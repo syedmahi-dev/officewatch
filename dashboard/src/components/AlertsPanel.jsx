@@ -43,11 +43,11 @@ export function AlertsPanel({ alerts }) {
                 animate={{ opacity: 1, y: 0, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.96, transition: { duration: 0.2 } }}
                 transition={{ type: 'spring', stiffness: 280, damping: 28 }}
-                className="rounded-[24px] border border-amber-400/20 bg-amber-400/10 p-4"
+                className="rounded-[24px] border border-[var(--alert-border)] bg-[var(--alert-bg)] p-4 shadow-sm transition-all duration-200 hover:border-[var(--alert-border-hover)]"
               >
                 <div className="flex items-start justify-between gap-4">
                   <div className="flex items-start gap-3">
-                    <div className="mt-0.5 flex h-10 w-10 items-center justify-center rounded-2xl border border-amber-400/20 bg-amber-400/12 text-amber-200">
+                    <div className="mt-0.5 flex h-10 w-10 items-center justify-center rounded-2xl border border-[var(--alert-icon-border)] bg-[var(--alert-icon-bg)] text-[var(--alert-icon-text)] shadow-sm">
                       {alert.type === 'after-hours' ? (
                         <Clock className="h-4 w-4" />
                       ) : (
@@ -55,14 +55,14 @@ export function AlertsPanel({ alerts }) {
                       )}
                     </div>
                     <div>
-                      <p className="text-sm leading-6 text-[var(--text-primary)]">{alert.message}</p>
-                      <p className="mt-2 text-xs font-medium uppercase tracking-[0.14em] text-amber-200/80">
+                      <p className="text-sm font-medium leading-6 text-[var(--text-primary)]">{alert.message}</p>
+                      <p className="mt-1.5 text-xs font-semibold uppercase tracking-[0.14em] text-[var(--alert-subtext)]">
                         {alert.type === 'after-hours' ? 'After hours' : 'Long runtime'}
                       </p>
                     </div>
                   </div>
 
-                  <span className="shrink-0 rounded-full border border-amber-400/20 bg-black/10 px-3 py-1.5 text-xs font-medium text-amber-100">
+                  <span className="shrink-0 rounded-full border border-[var(--alert-badge-border)] bg-[var(--alert-badge-bg)] px-3 py-1.5 text-xs font-semibold text-[var(--alert-badge-text)] shadow-sm">
                     {new Date(alert.triggeredAt).toLocaleTimeString([], {
                       hour: '2-digit',
                       minute: '2-digit',
